@@ -29,7 +29,7 @@ def main():
     tcp_server_socket.bind(("", 7890))
 
     # listen port
-    tcp_server_socket.listen(128)
+    tcp_server_socket.listen(128)  # 最大访问量
 
     while True:
         # get client
