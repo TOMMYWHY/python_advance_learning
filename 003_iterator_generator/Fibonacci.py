@@ -20,7 +20,7 @@ class Fibonacci(object):
 
 
 def main():
-    fibonacci = Fibonacci(50)
+    fibonacci = Fibonacci(20)
 
     for item in fibonacci:
         print(item)
