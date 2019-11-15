@@ -1,5 +1,6 @@
 class Parent(object):
     def __init__(self, name, *ags, **kwargs):
+        # *ags 元组    **kwargs 字典存储 关键字参数
         print("parent init starting...")
         self.name = name
         print("parent init end...")
