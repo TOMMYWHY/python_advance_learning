@@ -1,0 +1,130 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+</head>
+
+<body>
+    <h1>mvvm</h1>
+    <div id="app">
+
+    </div>
+</body>
+
+</html>
+
+
+<script>
+
+    function Model(options) {
+        this.data = options.data
+        this.resource = options.resource
+        Model.prototype.fetch = (id) => {
+            return axios.get(`/${this.resource}s/${id}`).then((response) => {
+                this.data = response.data
+                return response // return 的是 response 以便于后面 调用 fetch. then()
+            })
+        }
+        Model.prototype.update = (id, data) => {
+            return axios.put(`/${this.resource}s/${id}`, data).then((response) => {
+                this.data = response.data //更新 model.data
+                return response
+            })
+        }
+    }
+
+
+
+    /* MVC */
+    let model = new Model({
+        data: {
+            name: '',
+            number: 0,
+            id: ''
+        },
+        resource: 'book'
+    })
+
+    let view = new Vue({
+        el: '#app',
+        data: {
+            book: {
+                name: '',
+                number: 0,
+                id: ''
+            },
+            n:1
+        },
+        created(){
+            model.fetch(1).then(()=>{
+                this.book = model.data
+            })
+        },
+        methods: {
+            addOne() {
+                model.update(1, { number: this.book.number + (this.n-0) }).then(() => {
+                    // console.log(111);
+                    // console.log(model);
+                    
+                    this.book = model.data
+                }, (err) => { console.log(err); })
+            },
+            minusOne() {
+                model.update(1, { number: this.book.number -  (this.n-0)}).then(() => {
+                    this.book = model.data
+                }, (err) => { console.log(err); })
+            },
+            reset() {
+                model.update(1, { number: 0 }).then(() => {
+                    this.book = model.data
+                }, (err) => { console.log(err); })
+            }
+        },
+        template: `
+        <div>
+            <div>
+                book name: 《 {{book.name}} 》
+                amount: <span id="number"> {{book.number}} </span>
+            </div>
+            <div>
+                <input type="text" v-model = 'n'> n is {{n}}
+            </div>
+          
+            <div>
+                <button  v-on:click = 'addOne'>add </button>
+                <button  v-on:click = 'minusOne'>minus </button> 
+                <button  v-on:click = 'reset'>reset</button>
+            </div>
+        </div>
+        `,
+    })
+
+
+    /* let controller = {
+        init({ options }) {
+            // let view = options.view;
+            // let model =options.model;
+            this.view = view
+            this.model = model
+            // this.view.render(this.model.data)//首次 render 插入空数据
+            this.bindEvents()
+            this.model.fetch(1)
+                .then(() => {
+                    // this.view.render(this.model.data)
+                }, (err) => { console.log(err); })
+        },
+
+    }
+ */
+
+    // controller.init({ view: view, model: model })
+
+
+</script>

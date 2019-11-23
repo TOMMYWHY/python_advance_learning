@@ -1,0 +1,95 @@
+* {margin: 0 0 ;
+    padding:0 0;}
+body{margin: 0;
+overflow: hidden;
+}
+ol{list-style: none}
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+#main{
+    /*width: 500px;*/
+    /*height:400px;*/
+    /*height:100vh;*/
+    display: block;
+    background: #eeeeee;
+    /*position: relative;*/
+}
+.dots{
+    width: 6px;
+    height:6px;
+    background: #000;
+    border-radius: 5px;
+    position: absolute;
+
+}
+
+.actions{
+     position: fixed;
+     top: 10px;
+     left:10px;
+    padding:0.3rem;
+ }
+.actions > svg{
+    width: 1.2em;
+    height: 1.2em;
+    transition: 0.3s;
+    margin:0 .2rem;
+}
+
+.actions > svg.active{
+    fill:red;
+    transform: scale(1.2);
+}
+.colors{
+    position: fixed;
+    top: 50px;
+    left:12px;
+}
+.colors > li{
+    width:20px;
+    height:20px;
+    border:2px solid #c5c5c5;
+    margin:10px 0;
+    border-radius: 50%;
+    transition:all 0.3s;
+}
+.colors > li.active{
+   box-shadow: 0 0 3px rgba(0,0,0,2.5);
+    transform: scale(1.2);
+}
+.colors > li.red{
+    background: orangered;
+}
+.colors > li.green{
+    background: lightgreen;
+}
+.colors > li.blue{
+    background: dodgerblue;
+}
+.sizes{
+    position: fixed;
+    right:20px;
+    top:10px;
+}
+.sizes > li {
+    margin: 15px 0;
+    transition:all 0.3s;
+}
+.sizes > li.active{
+    background: #000;
+    transform: scale(1.2);
+}
+.sizes > .thin{
+    height: 0;
+    width: 20px;
+    border-top: 3px solid #353535;
+}
+.sizes > .thick{
+    height: 0;
+    width: 20px;
+    border-top: 10px solid #353535;
+}

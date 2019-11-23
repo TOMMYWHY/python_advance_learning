@@ -69,7 +69,7 @@ def main():
                     service_client(client_socket, recv_data)
                 else:
                     client_socket.close()  # 断开 connect
-                    client_socket_list.remove(client_socket)  # 移除
+                    client_socket_list.remove(client_socket)  ##
         # 创建协程
         # gevent.spawn(service_client, new_socket, client_addr)
 

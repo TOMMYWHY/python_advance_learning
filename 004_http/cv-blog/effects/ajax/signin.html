@@ -1,0 +1,108 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            border: 1px solid pink;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            border: 1px solid #ddd;
+            padding: 20px;
+        }
+
+        .container .formControl>label {
+            display: inline-block;
+            min-width: 9em;
+        }
+
+        .container .formControl>.error:after {
+            display: inline-block;
+            content: attr(text-content-after);
+            min-width: 10em;
+            /* border: 1px solid red; */
+        }
+
+
+        .container .formControl {
+            padding: 6px 3px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>sign in</h1>
+        <form id='signinForm' action="">
+            <div class="formControl">
+                <label for="">email</label>
+                <input type="text" name='email'>
+                <span class="error" text-content-after=''></span>
+            </div>
+            <div class="formControl">
+                <label for="">password</label>
+                <input type="text" name='password' value='' id='password'>
+                <span class="error" text-content-after=''></span>
+            </div>
+            <input type='submit' value='login'>
+        </form>
+    </div>
+
+</body>
+
+</html>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script>
+    let hash = {}
+    let $form = $('#signinForm');
+    $form.on('submit', (e) => {
+        e.preventDefault();
+        let need = ['email', 'password']
+        need.forEach((name, index) => {
+            console.log(`${name} => ${index}`);
+            let value = $form.find(`[name=${name}]`).val();
+            console.log(value);
+            hash[name] = value;
+        })
+        console.log(hash);
+        $form.find('.error').each((index, element) => { $(element).attr("text-content-after", '') });
+        if (hash.email === "") {
+            $form.find('[name = "email"]').siblings('.error').attr("text-content-after", 'email is reqiured~!')
+            return;
+        }
+        if (hash.password === "") {
+            $form.find('[name = "password"]').siblings('.error').attr("text-content-after", 'password is reqiured~!')
+            return;
+        }
+        $.post('./signin', hash)
+            .then(
+                (res) => {
+                    console.log(res);
+                    window.location.href = '/'
+
+                },
+                (request) => {
+                    alert('email or password not match~!')
+                }
+            )
+    })
+</script>

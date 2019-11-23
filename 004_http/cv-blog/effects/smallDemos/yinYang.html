@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head> 
+<body>
+	<h1>Yin Yang</h1>
+	<p>Author: Tommy</p>
+	<p>Created by pseudo-classes</p>
+<div class="container">
+	<div id="yinYang">
+	</div>
+</div>
+	
+</body>
+</html>
+
+
+<style>
+
+	#yinYang::before{
+		content: '';
+		border:80px solid black;
+		width: 40px;
+		height:40px;
+		border-radius: 50%;
+		background: white;
+		position: absolute;
+		top:100px;
+	}
+	#yinYang::after{
+		content: "";
+		border:80px solid white;
+		width: 40px;
+		height:40px;
+		border-radius: 50%;
+		background: black;
+		position: absolute;
+		top:100px;
+		left:200px;
+	}
+	#yinYang{
+		position: relative;
+		width: 400px;
+		height: 400px;
+		margin: 0 auto;
+		/*border:1px solid red;*/
+		border-radius: 50%;
+		background: #ffffff; /* Old browsers */
+		background: linear-gradient(to bottom, #ffffff 0%,#ffffff 48%,#ffffff 48%,#ffffff 48%,#ffffff 48%,#000000 49%,#000000 49%,#000000 100%);
+		animation: spin 5s ;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+	.container{
+		width:100%;
+		height: 600px;
+
+
+		background: #eeeeee;
+		margin: 0 0;
+		padding:50px 0;
+	}
+
+	@keyframes spin {
+		0%{
+			transform: rotate(0deg);
+		}
+		100%{
+			transform: rotate(360deg);
+		}
+
+	}
+
+</style>

@@ -1,0 +1,148 @@
+<html>
+<head>
+
+	<title></title>
+</head>
+<body>
+	<header>
+		<link rel="stylesheet" href="style.css">
+	</header>
+	<main >
+
+		<div class="wrapper" id="main"></div>
+	</main>
+
+
+	<footer></footer>
+</body>
+</html>
+
+<script type="text/javascript">
+
+	// 1. data init
+	var datas = initData();
+	var keys = datas["keys"];
+	var hashUrl = datas["hashUrl"];
+	//2. create keyboard
+	generateKeyboard(keys,hashUrl);
+	//3. listen keyboard event
+	listenKeyboard(hashUrl);
+//	functions
+	function initData() {
+        var keys = {
+            0:['q','w','e','r','t','y','u','i','o','p'],
+            1:['a','s','d','f','g','h','j','k','l'],
+            2:['z','x','c','v','b','n','m'],
+            length:3
+        }
+        var hashUrl = {
+            q:'www.qq.com',
+            w:'weibo.com',
+            e:'ele.me',
+            r:'renren.com',
+            t:undefined,
+            y:"youtube.com",
+            u:undefined,
+            i:undefined,
+            o:undefined,
+            p:undefined,
+            t:'tommywhy.com',
+            a:'www.acfun.cn',
+            s:undefined,
+            d:undefined,
+            f:undefined,
+            g:undefined,
+            h:undefined,
+            j:undefined,
+            k:undefined,
+            l:undefined,
+            z:undefined,
+            x:undefined,
+            c:undefined,
+            v:undefined,
+            b:undefined,
+            n:undefined,
+            m:'www.mcdonalds.com.cn'
+        }
+        var hashUrlInLocalStorage = getFromLocalStorage('Urls');
+        if(hashUrlInLocalStorage){
+            hash = hashUrlInLocalStorage;
+        }
+        return {
+	        "keys" : keys,
+		    "hashUrl" : hashUrl
+	    }
+
+    }
+	function getFromLocalStorage(localKey) {
+        return JSON.parse(localStorage.getItem(localKey) || "null");
+    }
+	function createTag(tagName,attributes) {
+        var tag = document.createElement(tagName);
+		for (var item in attributes){
+            tag[item] = attributes[item];
+		}
+		return tag;
+    }
+    function createSpan(textContent) {
+        var span =  createTag('span',{className:'keyword'});
+        span.textContent = textContent;
+		return span;
+    }
+    function createIconImage(domain) {
+        var IconImage = createTag('img');
+        IconImage.src = "http://" + domain + '/favicon.ico';
+        IconImage.onerror = function (e) {
+            console.log('download error~!');
+            console.log(e.target)
+            e.target.src = './dots.png'
+        };
+        return IconImage;
+    }
+    function createBtn(id) {
+        var btn = createTag('button',{className:"smBtn",textContent:"edit"});
+        btn.id = id;
+        btn.onclick = function (e) {
+            var theBtn = e.target;
+            var theKey = theBtn.id;
+            var newUrl = prompt('input a new Url');
+            hashUrl[theKey] = newUrl;
+            var theImg = theBtn.previousSibling;
+            theImg.src = "http://" +newUrl + '/favicon.ico';
+
+            theImg.onerror = function (e) {
+                e.target.src = './dots.png'
+            };
+            localStorage.setItem('Urls',JSON.stringify(hashUrl));
+        };
+        return btn;
+    }
+	function generateKeyboard(keys, hashUrl) {
+        var oMain = document.getElementById('main');
+
+        for(var i = 0; i < keys['length']; i ++){
+            var aRow = createTag('div',{className:'row'});
+            oMain.appendChild(aRow);
+
+            for(var j = 0; j < keys[i]['length']; j++){
+                var oKbd = createTag("kbd",{className:"key"});
+                aRow.appendChild(oKbd);
+                var oSpan = createSpan( keys[i][j]);
+                var oImgIcon =createIconImage( hashUrl[keys[i][j]]);
+                var oBtn = createBtn(keys[i][j]);
+                oKbd.appendChild(oSpan);
+                oKbd.appendChild(oImgIcon);
+                oKbd.appendChild(oBtn);
+            };
+
+        };
+    }
+	function listenKeyboard(hashUrl) {
+		document.onkeypress = function (e) {
+			var userPress = e.key;
+			var website = hashUrl[userPress];
+			window.open('http://'+website, '_blank')
+        }
+    }
+
+</script>

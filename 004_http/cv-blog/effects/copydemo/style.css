@@ -1,0 +1,33 @@
+*{margin: 0;padding: 0}
+*{box-sizing: border-box}
+
+.container{
+    width: 800px;
+    height: 600px;
+    background: #eeeeee;
+    margin: 50px auto;
+}
+.container .panel{
+    border: 1px solid red;
+}
+.container .panel .controls{
+    /* height: 80px; */
+    display:flex;
+    justify-content: space-around;
+    padding: 5px;
+    background: pink;
+
+}
+.params{
+    padding: 5px;
+}
+#img{
+    /* filter: invert(100%); */
+    transition: all 0.3s;
+}
+.rotationX{}
+    /* transform:rotate(90deg); */
+	/* -ms-transform:rotate(7deg); IE 9 */
+	-webkit-transform:rotate(15deg); /* Safari and Chrome */
+}
+

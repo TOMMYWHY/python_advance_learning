@@ -1,0 +1,92 @@
+// =============================================
+// @des:            tommywhy
+// @author:         Tommy
+// @email:          tommywhy2016@gmail.com
+// @time:           2016-9-12
+// @lastTime        2016-9-12
+// @version         0.2 beta
+// =============================================
+
+
+/* ========================== */
+/* = params = */
+/* ========================== */
+
+@fz:14px;
+@fc:#6C6C6C;
+@acolor:#000;
+
+/* ========================== */
+/* = font-size and color = */
+/* ========================== */
+
+.fz(@fz:14px){font-size: @fz;}
+.fc(@fc){color: @fc;}
+.link(@acolor){ color: @acolor;}
+.bg_color1(@bg1:red){background:@bg1 ;}
+.bg_color2(@bg2:pink){background:@bg2 ;}
+.bg_color3(@bg3:aqua){background:@bg3 ;}
+
+
+.pv_p(@fc){color: @fc;}
+.pv_h1(@fz:18px,@fc){font-size: @fz;color: @fc;}
+.pv_h2(@fz:18px,@fc){font-size: @fz;color: @fc;}
+.text_decoration(@dec:underline) {
+  text-decoration: @dec;
+}
+
+/* ========================== */
+/* = 浮动 = */
+/* ========================== */
+.fl(@f:left;){float: @f;display: inline;}
+.fr(@f:right){float: @f;display: inline;}
+/* ========================== */
+/* = 定位 = */
+/* ========================== */
+.rel(@rel:relative){position: @rel;}
+.abs(@abs:absolute){position: @abs;}
+.fix(@fix:fixed){position: @fix;}
+/* ========================== */
+/* = fullpage.js = */
+/* ========================== */
+.abs_center{position: absolute;top: 0; left: 0; bottom: 0; right: 0; }
+.tran(){transition: all 1s;}
+.tran_delay(@s){transition-delay: @s;}
+.tran_dur(@s:1s){transition-duration: @s;}
+.t_scale(@s1:1,@s2:1){
+   -webkit-transform:scale(@s1,@s2);
+   -moz-transform:scale(@s1,@s2);
+    transform:scale(@s1,@s2); 
+}
+/* ========================== */
+/* = 居中 布局 = */
+/* ========================== */
+.w_center(@w){width: @w;.bc();}
+.flex(@flex:1){flex: @flex;}
+.m_l_r{ margin-left: auto;margin-right: auto;}
+/* ========================== */
+/* = 宽高 = */
+/* ========================== */
+.w(@w){width: @w;}
+.h(@h){height: @h;}
+/* ========================== */
+/* = 边距 = */
+/* ========================== */
+.m(@mt,@mb){margin:@mt @mb;}
+.m_l(@m){margin-left:@m;}
+.m_r(@m){margin-right:@m;}
+.m_t(@m){margin-top:@m;}
+.m_b(@m){margin-bottom:@m;}
+.p(@pt,@pb){padding:@pt @pb;}
+.p_t(@p){padding-top:@p;}
+.p_b(@p){padding-bottom:@p;}
+.p_l(@p){padding-left:@p;}
+.p_r(@p){padding-right:@p;}
+
+/* ========================== */
+/* = 圆边 = */
+/* ========================== */
+.border_r(@r){border-radius:@r;}
+/*
+ * tommywhy end
+ */

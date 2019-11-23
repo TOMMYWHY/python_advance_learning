@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>this-test</title>
+    <style>
+        ul>li {
+            width: 50px;
+            height: 30px;
+            margin: 15px 10px;
+            border: 1px solid grey
+        }
+
+        .active {
+            background: hotpink
+        }
+    </style>
+</head>
+
+<body>
+    <h1>this</h1>
+    <ul id="buttons">
+        <li id="btn1">1</li>
+        <li id='btn2'>2</li>
+        <li>3</li>
+        <li>4</li>
+
+    </ul>
+</body>
+
+</html>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+<script>
+    buttons = document.querySelectorAll('ul > li');
+    // console.log(buttons);
+
+    btn1.onclick = function () {
+        console.log(this)
+    }
+    btn1.onclick.call({name:'tommy'},function(){ console.log(this)})
+   
+
+    btn2.addEventListener('click', function () {
+        console.log(this);
+
+    })
+
+
+    /*  for (var i = 0; i < 4; i++) {
+         buttons[i].onclick = function () {
+             // console.log(this);
+             console.log(i);// i 永远是4，只有this 是当前点击对象
+             // buttons[i].classList.add('active')
+             this.classList.add('active')
+
+         }
+     } */
+
+    /* $('ul').on('click', 'li', function () {
+        console.log(this);
+
+    }) */
+</script>

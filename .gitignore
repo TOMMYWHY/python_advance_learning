@@ -1,2 +1,5 @@
 # Project exclude paths
 /venv/
+/002_tread_process/test/
+/002_tread_process/test[copy]/
+/venv/

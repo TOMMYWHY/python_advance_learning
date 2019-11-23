@@ -1,0 +1,79 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="./style.css">
+	<script
+			src="https://code.jquery.com/jquery-3.4.1.js"
+			integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			crossorigin="anonymous"></script>
+</head>
+<body>
+<h1>琦玉 Saitama SliderShow</h1>
+<div class="window">
+	<div class="images" id="images">
+		<img  src="http://i.imgur.com/DEtgn2p.jpg" alt="">
+		<img  src="http://img2.dwstatic.com/acmoba/1901/410542369639/1546587222019.jpg"  alt="">
+		<img src="http://i.imgur.com/RtaFfvY.jpg" alt="">
+		<img src="http://i.imgur.com/VCpr6fE.jpg" alt="">
+	</div>
+
+
+</div>
+	<span id="buttons">
+		<span >pic1</span>
+		<span >pic2</span>
+		<span >pic3</span>
+		<span >pic4</span>
+	</span>
+
+</body>
+</html>
+
+<script>
+	var allButtons = $('#buttons > span')
+	for(let i = 0; i<allButtons.length;i++){
+	    $(allButtons[i]).on('click',function (e) {
+		    var index = $(e.currentTarget).index() ;
+		    var p = index*(-300)
+		    console.log(p)
+		    $('#images').css({
+			    transform:'translate('+p+'px)'
+		    })
+		    n = index
+		    activeButton(allButtons.eq(n))
+        })
+	}
+
+	var n = 0
+	var size = allButtons.length
+
+	playSlide(n%size)
+
+	var timerId = setTimer()
+
+    $('.window').on('mouseenter',function (e) {
+	    window.clearInterval(timerId)
+    })
+    $('.window').on('mouseleave',function (e) {
+        timerId = setTimer()
+    })
+
+	function setTimer() {
+        return setInterval(()=>{
+		            playSlide(n%size)
+		            n++
+		        },2000)
+    }
+
+	function playSlide(index) {
+        allButtons.eq(index).trigger('click')
+//        activeButton(allButtons.eq(n%size))
+    }
+    function activeButton($button) {
+        $button.addClass('red').siblings('.red').removeClass('red');//.eq() 将DOM 对象包装成jquery 对象
+    }
+</script>

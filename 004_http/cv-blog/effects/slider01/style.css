@@ -1,0 +1,19 @@
+.window{
+    border: 2px solid red;
+    width: 300px;
+    overflow: hidden;
+}
+.images{
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid pink;
+    transition: transform 1.5s;
+}
+.images > img{
+    width: 300px;
+
+
+}
+.red{
+    background: red;
+}

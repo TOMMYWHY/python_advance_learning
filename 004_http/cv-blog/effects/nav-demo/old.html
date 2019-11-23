@@ -1,0 +1,153 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Navigation</title>
+</head>
+<body>
+	<header>
+		<link rel="stylesheet" href="style.css">
+	</header>
+	<main >
+		<div class="wrapper" id="main"></div>
+	</main>
+	<footer></footer>
+</body>
+</html>
+
+<script>
+
+	// 1. init data
+	var hashA = initData();
+	var keys = hashA['keys'];
+	var hash = hashA['hash'];
+
+	//2.create user keyboard action
+	generateKeyboard(keys,hash);
+
+	//3. listen keyboard event
+    listenKeyboard(hash);
+w
+    //functions
+    function getFromLocalStorage(name) {
+        return JSON.parse(localStorage.getItem(name) || "null");
+    }
+    function createTag(tagName,attributes) {
+        var element =  document.createElement(tagName);
+        for(var key in attributes ){
+            element[key] = attributes[key]
+        }
+        return element;
+    }
+    function createSpan(textContent) {
+        var keyWord = createTag('span');
+        keyWord.className = 'keyWord';
+        keyWord.textContent = textContent;
+        return keyWord;
+    }
+    function createBtn(id) {
+        var btn = createTag('button');
+        btn.textContent = 'Edit';
+        btn.id = id;
+        btn.onclick = function (element) {
+            var btn2 = element['target'];
+            var img2 =  btn2.previousSibling;
+
+            var key =  element['target']['id'];
+            var xx = prompt('input a website');
+            hash[key] = xx;
+
+            img2.src = "http://" +xx + '/favicon.ico';
+            img2.onerror = function (e) {
+                console.log('download error');
+                e.target.src = './favicon_default.ico'
+            }
+
+
+            localStorage.setItem('urlSave',JSON.stringify(hash))
+        };
+        return btn;
+    }
+    function createImage(domian) { //hash[row[index2]]
+        var imgIcon = createTag('img');
+        if(domian){
+            imgIcon.src = "http://" + domian + '/favicon.ico'
+        }
+        imgIcon.onerror = function (e) {
+            console.log('download error');
+            console.log(e.target)
+            e.target.src = './favicon_default.ico'
+        };
+        return imgIcon;
+    }
+    function initData() {
+        var keys = {
+            0:['q','w','e','r','t','y','u','i','o','p'],
+            1:['a','s','d','f','g','h','j','k','l'],
+            2:['z','x','c','v','b','n','m'],
+            length:3
+        };
+        var hash = {
+            q:'qq.com',
+            w:'weibo.com',
+            e:'ele.me',
+            r:'renren.com',
+            t:undefined,
+            y:'youtube.com',
+            u:undefined,
+            i:undefined,
+            o:undefined,
+            p:undefined,
+            t:undefined,
+            a:undefined,
+            s:undefined,
+            d:undefined,
+            f:undefined,
+            g:undefined,
+            h:undefined,
+            j:undefined,
+            m:'www.mcdonalds.com.cn'
+        };
+        var hashInLocalStorage = getFromLocalStorage('');
+
+        if(hashInLocalStorage){
+            hash = hashInLocalStorage;
+        }
+
+        return {
+            "keys":keys,
+            "hash":hash
+        }
+    }
+    function generateKeyboard(keys,hash) {
+        for(var index =0; index<keys['length']; index++){
+            var div1 = createTag('div',{className:'row'});
+
+            main.appendChild(div1);
+
+            var row = keys[index];
+            for ( var index2 = 0; index2<row['length']; index2++){
+
+                var keyWord = createSpan( row[index2]);
+                var btn = createBtn( row[index2]);
+                var imgIcon = createImage(hash[row[index2]]);
+                var kbd = createTag('kbd');
+                kbd.className = 'key';
+                kbd.appendChild(keyWord);
+                kbd.appendChild(imgIcon);
+                kbd.appendChild(btn);
+                div1.appendChild(kbd);
+            }
+        }
+    }
+    function listenKeyboard(hash) {
+        document.onkeypress =  function (element) {
+            var key = element['key'];
+            var website = hash[key];
+            window.open('http://'+website, '_blank')
+        };
+    }
+
+</script>
