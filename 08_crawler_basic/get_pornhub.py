@@ -32,6 +32,7 @@ class PronHub:
             html_str = None
         # return html_str
         print(self.cookie_dict)
+        print(html_str)
         with open("pronhub_favorites.html", "w", encoding="utf-8") as f:
             f.write(html_str)
 
