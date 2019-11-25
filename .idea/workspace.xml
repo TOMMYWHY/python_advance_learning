@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="crawler- 02">
-      <change afterPath="$PROJECT_DIR$/08_crawler_basic/get_pornhub.py" afterDir="false" />
+    <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="retry module">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_crawler_basic/get_png.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_crawler_basic/get_png.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_crawler_basic/get_pornhub.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_crawler_basic/get_pornhub.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574485836868</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="retry module">
+      <created>1574673384262</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1574673384262</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -319,7 +325,8 @@
     <MESSAGE value="pymysql" />
     <MESSAGE value="decorator 装饰器" />
     <MESSAGE value="crawler- 02" />
-    <option name="LAST_COMMIT_MESSAGE" value="crawler- 02" />
+    <MESSAGE value="retry module" />
+    <option name="LAST_COMMIT_MESSAGE" value="retry module" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1029" y="166" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1573263726486">
@@ -334,37 +341,45 @@
       <screen x="48" y="22" width="1872" height="1058" />
     </state>
     <state x="1158" y="202" key="Github.UntrackedFilesDialog/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573266868762" />
-    <state width="1414" height="214" key="GridCell.Tab.0.bottom" timestamp="1574673337956">
+    <state width="1414" height="214" key="GridCell.Tab.0.bottom" timestamp="1574676518446">
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
-    <state width="1414" height="214" key="GridCell.Tab.0.bottom/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574673337956" />
+    <state width="1414" height="214" key="GridCell.Tab.0.bottom/1920.582.1440.878/46.22.1874.1058@1920.582.1440.878" timestamp="1574675683269" />
+    <state width="1414" height="214" key="GridCell.Tab.0.bottom/1920.582.1440.878/47.22.1873.1058@1920.582.1440.878" timestamp="1574676518446" />
+    <state width="1414" height="214" key="GridCell.Tab.0.bottom/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574674073579" />
     <state width="820" height="277" key="GridCell.Tab.0.bottom/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573269797999" />
     <state width="820" height="277" key="GridCell.Tab.0.bottom/1920.582.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1573265876528" />
     <state width="860" height="277" key="GridCell.Tab.0.bottom/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573632443821" />
     <state width="1414" height="271" key="GridCell.Tab.0.bottom/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1574419204153" />
     <state width="1307" height="272" key="GridCell.Tab.0.bottom/1920.582.1440.878/53.22.1867.1058@53.22.1867.1058" timestamp="1574485837281" />
-    <state width="1414" height="214" key="GridCell.Tab.0.center" timestamp="1574673337955">
+    <state width="1414" height="214" key="GridCell.Tab.0.center" timestamp="1574676518445">
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
-    <state width="1414" height="214" key="GridCell.Tab.0.center/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574673337955" />
+    <state width="1414" height="214" key="GridCell.Tab.0.center/1920.582.1440.878/46.22.1874.1058@1920.582.1440.878" timestamp="1574675683268" />
+    <state width="1414" height="214" key="GridCell.Tab.0.center/1920.582.1440.878/47.22.1873.1058@1920.582.1440.878" timestamp="1574676518445" />
+    <state width="1414" height="214" key="GridCell.Tab.0.center/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574674073578" />
     <state width="820" height="277" key="GridCell.Tab.0.center/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573269797998" />
     <state width="820" height="277" key="GridCell.Tab.0.center/1920.582.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1573265876527" />
     <state width="860" height="277" key="GridCell.Tab.0.center/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573632443820" />
     <state width="1414" height="271" key="GridCell.Tab.0.center/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1574419204152" />
     <state width="1307" height="272" key="GridCell.Tab.0.center/1920.582.1440.878/53.22.1867.1058@53.22.1867.1058" timestamp="1574485837280" />
-    <state width="1414" height="214" key="GridCell.Tab.0.left" timestamp="1574673337955">
+    <state width="1414" height="214" key="GridCell.Tab.0.left" timestamp="1574676518444">
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
-    <state width="1414" height="214" key="GridCell.Tab.0.left/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574673337955" />
+    <state width="1414" height="214" key="GridCell.Tab.0.left/1920.582.1440.878/46.22.1874.1058@1920.582.1440.878" timestamp="1574675683267" />
+    <state width="1414" height="214" key="GridCell.Tab.0.left/1920.582.1440.878/47.22.1873.1058@1920.582.1440.878" timestamp="1574676518444" />
+    <state width="1414" height="214" key="GridCell.Tab.0.left/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574674073577" />
     <state width="820" height="277" key="GridCell.Tab.0.left/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573269797997" />
     <state width="820" height="277" key="GridCell.Tab.0.left/1920.582.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1573265876526" />
     <state width="860" height="277" key="GridCell.Tab.0.left/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573632443819" />
     <state width="1414" height="271" key="GridCell.Tab.0.left/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1574419204151" />
     <state width="1307" height="272" key="GridCell.Tab.0.left/1920.582.1440.878/53.22.1867.1058@53.22.1867.1058" timestamp="1574485837280" />
-    <state width="1414" height="214" key="GridCell.Tab.0.right" timestamp="1574673337956">
+    <state width="1414" height="214" key="GridCell.Tab.0.right" timestamp="1574676518445">
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
-    <state width="1414" height="214" key="GridCell.Tab.0.right/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574673337956" />
+    <state width="1414" height="214" key="GridCell.Tab.0.right/1920.582.1440.878/46.22.1874.1058@1920.582.1440.878" timestamp="1574675683268" />
+    <state width="1414" height="214" key="GridCell.Tab.0.right/1920.582.1440.878/47.22.1873.1058@1920.582.1440.878" timestamp="1574676518445" />
+    <state width="1414" height="214" key="GridCell.Tab.0.right/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574674073578" />
     <state width="820" height="277" key="GridCell.Tab.0.right/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573269797998" />
     <state width="820" height="277" key="GridCell.Tab.0.right/1920.582.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1573265876527" />
     <state width="860" height="277" key="GridCell.Tab.0.right/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573632443820" />
@@ -409,17 +424,19 @@
     <state x="920" y="230" key="Vcs.Push.Dialog.v2/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573500028228" />
     <state x="2360" y="755" key="Vcs.Push.Dialog.v2/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1574417998612" />
     <state x="920" y="230" key="Vcs.Push.Dialog.v2/1920.582.1440.878/53.22.1867.1058@53.22.1867.1058" timestamp="1574153567153" />
-    <state x="225" y="240" width="952" height="616" key="find.popup" timestamp="1574481945951">
-      <screen x="53" y="22" width="1867" height="1058" />
+    <state x="2053" y="763" width="952" height="616" key="find.popup" timestamp="1574675217311">
+      <screen x="1920" y="582" width="1440" height="878" />
     </state>
+    <state x="2053" y="763" width="952" height="616" key="find.popup/1920.582.1440.878/46.22.1874.1058@1920.582.1440.878" timestamp="1574675217311" />
     <state x="225" y="240" width="952" height="616" key="find.popup/1920.582.1440.878/53.22.1867.1058@53.22.1867.1058" timestamp="1574481945951" />
     <state x="991" y="377" key="git4idea.ui.GitUnstashDialog" timestamp="1573287150439">
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="991" y="377" key="git4idea.ui.GitUnstashDialog/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573287150439" />
-    <state x="1078" y="48" width="838" height="1032" key="search.everywhere.popup" timestamp="1573280699821">
-      <screen x="52" y="22" width="1868" height="1058" />
+    <state x="2711" y="604" width="838" height="857" key="search.everywhere.popup" timestamp="1574675695007">
+      <screen x="1920" y="582" width="1440" height="878" />
     </state>
+    <state x="2711" y="604" width="838" height="857" key="search.everywhere.popup/1920.582.1440.878/46.22.1874.1058@1920.582.1440.878" timestamp="1574675695007" />
     <state x="1078" y="48" width="838" height="1032" key="search.everywhere.popup/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573280699821" />
   </component>
   <component name="XDebuggerManager">
