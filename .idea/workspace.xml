@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="cookie split">
-      <change afterPath="$PROJECT_DIR$/08_crawler_basic/json_test.py" afterDir="false" />
+    <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="json module">
+      <change afterPath="$PROJECT_DIR$/08_crawler_basic/guokr.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_crawler_basic/get_pornhub.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_crawler_basic/get_pornhub.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_crawler_basic/json_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_crawler_basic/json_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
       <recent name="$PROJECT_DIR$/002_tread_process/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.json_test">
+  <component name="RunManager" selected="Python.guokr">
     <configuration name="cookie" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_advance" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,27 +74,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_png" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py_advance" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/08_crawler_basic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_crawler_basic/get_png.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="get_pornhub" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_advance" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,6 +87,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_crawler_basic/get_pornhub.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="guokr" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py_advance" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/08_crawler_basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_crawler_basic/guokr.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.guokr" />
         <item itemvalue="Python.json_test" />
         <item itemvalue="Python.get_pornhub" />
         <item itemvalue="Python.cookie" />
         <item itemvalue="Python.proxy" />
-        <item itemvalue="Python.get_png" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574676788528</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="json module">
+      <created>1574679098687</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1574679098687</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -335,7 +342,8 @@
     <MESSAGE value="crawler- 02" />
     <MESSAGE value="retry module" />
     <MESSAGE value="cookie split" />
-    <option name="LAST_COMMIT_MESSAGE" value="cookie split" />
+    <MESSAGE value="json module" />
+    <option name="LAST_COMMIT_MESSAGE" value="json module" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1029" y="166" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1573263726486">
@@ -350,49 +358,49 @@
       <screen x="48" y="22" width="1872" height="1058" />
     </state>
     <state x="1158" y="202" key="Github.UntrackedFilesDialog/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573266868762" />
-    <state width="1414" height="214" key="GridCell.Tab.0.bottom" timestamp="1574679024724">
+    <state width="1414" height="214" key="GridCell.Tab.0.bottom" timestamp="1574762303823">
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
     <state width="1414" height="214" key="GridCell.Tab.0.bottom/1920.582.1440.878/46.22.1874.1058@1920.582.1440.878" timestamp="1574675683269" />
     <state width="1414" height="214" key="GridCell.Tab.0.bottom/1920.582.1440.878/47.22.1873.1058@1920.582.1440.878" timestamp="1574676771763" />
-    <state width="1414" height="214" key="GridCell.Tab.0.bottom/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574679024724" />
+    <state width="1414" height="214" key="GridCell.Tab.0.bottom/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574679093049" />
     <state width="820" height="277" key="GridCell.Tab.0.bottom/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573269797999" />
     <state width="820" height="277" key="GridCell.Tab.0.bottom/1920.582.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1573265876528" />
     <state width="860" height="277" key="GridCell.Tab.0.bottom/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573632443821" />
-    <state width="1414" height="271" key="GridCell.Tab.0.bottom/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1574419204153" />
+    <state width="1414" height="214" key="GridCell.Tab.0.bottom/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1574762303823" />
     <state width="1307" height="272" key="GridCell.Tab.0.bottom/1920.582.1440.878/53.22.1867.1058@53.22.1867.1058" timestamp="1574485837281" />
-    <state width="1414" height="214" key="GridCell.Tab.0.center" timestamp="1574679024723">
+    <state width="1414" height="214" key="GridCell.Tab.0.center" timestamp="1574762303822">
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
     <state width="1414" height="214" key="GridCell.Tab.0.center/1920.582.1440.878/46.22.1874.1058@1920.582.1440.878" timestamp="1574675683268" />
     <state width="1414" height="214" key="GridCell.Tab.0.center/1920.582.1440.878/47.22.1873.1058@1920.582.1440.878" timestamp="1574676771762" />
-    <state width="1414" height="214" key="GridCell.Tab.0.center/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574679024723" />
+    <state width="1414" height="214" key="GridCell.Tab.0.center/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574679093048" />
     <state width="820" height="277" key="GridCell.Tab.0.center/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573269797998" />
     <state width="820" height="277" key="GridCell.Tab.0.center/1920.582.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1573265876527" />
     <state width="860" height="277" key="GridCell.Tab.0.center/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573632443820" />
-    <state width="1414" height="271" key="GridCell.Tab.0.center/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1574419204152" />
+    <state width="1414" height="214" key="GridCell.Tab.0.center/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1574762303822" />
     <state width="1307" height="272" key="GridCell.Tab.0.center/1920.582.1440.878/53.22.1867.1058@53.22.1867.1058" timestamp="1574485837280" />
-    <state width="1414" height="214" key="GridCell.Tab.0.left" timestamp="1574679024723">
+    <state width="1414" height="214" key="GridCell.Tab.0.left" timestamp="1574762303821">
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
     <state width="1414" height="214" key="GridCell.Tab.0.left/1920.582.1440.878/46.22.1874.1058@1920.582.1440.878" timestamp="1574675683267" />
     <state width="1414" height="214" key="GridCell.Tab.0.left/1920.582.1440.878/47.22.1873.1058@1920.582.1440.878" timestamp="1574676771761" />
-    <state width="1414" height="214" key="GridCell.Tab.0.left/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574679024723" />
+    <state width="1414" height="214" key="GridCell.Tab.0.left/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574679093047" />
     <state width="820" height="277" key="GridCell.Tab.0.left/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573269797997" />
     <state width="820" height="277" key="GridCell.Tab.0.left/1920.582.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1573265876526" />
     <state width="860" height="277" key="GridCell.Tab.0.left/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573632443819" />
-    <state width="1414" height="271" key="GridCell.Tab.0.left/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1574419204151" />
+    <state width="1414" height="214" key="GridCell.Tab.0.left/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1574762303821" />
     <state width="1307" height="272" key="GridCell.Tab.0.left/1920.582.1440.878/53.22.1867.1058@53.22.1867.1058" timestamp="1574485837280" />
-    <state width="1414" height="214" key="GridCell.Tab.0.right" timestamp="1574679024724">
+    <state width="1414" height="214" key="GridCell.Tab.0.right" timestamp="1574762303822">
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
     <state width="1414" height="214" key="GridCell.Tab.0.right/1920.582.1440.878/46.22.1874.1058@1920.582.1440.878" timestamp="1574675683268" />
     <state width="1414" height="214" key="GridCell.Tab.0.right/1920.582.1440.878/47.22.1873.1058@1920.582.1440.878" timestamp="1574676771762" />
-    <state width="1414" height="214" key="GridCell.Tab.0.right/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574679024724" />
+    <state width="1414" height="214" key="GridCell.Tab.0.right/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574679093048" />
     <state width="820" height="277" key="GridCell.Tab.0.right/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573269797998" />
     <state width="820" height="277" key="GridCell.Tab.0.right/1920.582.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1573265876527" />
     <state width="860" height="277" key="GridCell.Tab.0.right/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573632443820" />
-    <state width="1414" height="271" key="GridCell.Tab.0.right/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1574419204152" />
+    <state width="1414" height="214" key="GridCell.Tab.0.right/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1574762303822" />
     <state width="1307" height="272" key="GridCell.Tab.0.right/1920.582.1440.878/53.22.1867.1058@53.22.1867.1058" timestamp="1574485837280" />
     <state width="1414" height="271" key="GridCell.Tab.1.bottom" timestamp="1574672288292">
       <screen x="1920" y="582" width="1440" height="878" />
@@ -426,12 +434,13 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state width="625" height="500" key="SwitcherDM/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573293523418" />
-    <state x="2360" y="755" key="Vcs.Push.Dialog.v2" timestamp="1574417998612">
+    <state x="2360" y="755" key="Vcs.Push.Dialog.v2" timestamp="1574762392202">
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
     <state x="920" y="230" key="Vcs.Push.Dialog.v2/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573266894813" />
+    <state x="920" y="438" key="Vcs.Push.Dialog.v2/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1574757568700" />
     <state x="920" y="230" key="Vcs.Push.Dialog.v2/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573500028228" />
-    <state x="2360" y="755" key="Vcs.Push.Dialog.v2/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1574417998612" />
+    <state x="2360" y="755" key="Vcs.Push.Dialog.v2/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1574762392202" />
     <state x="920" y="230" key="Vcs.Push.Dialog.v2/1920.582.1440.878/53.22.1867.1058@53.22.1867.1058" timestamp="1574153567153" />
     <state x="2053" y="763" width="952" height="616" key="find.popup" timestamp="1574675217311">
       <screen x="1920" y="582" width="1440" height="878" />

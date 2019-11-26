@@ -13,8 +13,8 @@ response = requests.get(url,headers= headers)
 json_str = response.content.decode()
 ret1 = json.loads(json_str)
 ret1 = json.loads(json_str)
-# pprint(ret1)
+pprint(ret1)
 # print(type(ret1))
 
-with open("json.js","w",encoding="utf-8") as f:
+with open("json_test.json","w",encoding="utf-8") as f:
     f.write(json.dumps(ret1,ensure_ascii=False,indent=4))
