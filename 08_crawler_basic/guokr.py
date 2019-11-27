@@ -29,7 +29,8 @@ class Goukr:
             item = {}
             item["tag"] = div.xpath(".//div/p/a/text()")
             item["question"] = div.xpath(".//h2/a/text()")
-            item["timestamp"] = div.xpath(".//div/p/span[@class= 'ask-list-time']/text()")
+            item["timestamp"] = [ i.str
+                                  () for i in div.xpath(".//div/p/span[@class= 'ask-list-time']/text()")]
             content_list.append(item)
         return content_list
 
