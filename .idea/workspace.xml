@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="goukr crawler https://www.guokr.com/ask/newest/ multi-processing">
-      <change afterPath="$PROJECT_DIR$/010_db/mongo_db.py" afterDir="false" />
+    <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="nu,p">
+      <change afterPath="$PROJECT_DIR$/020_dataMining/.ipynb_checkpoints/numpy_learning01-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/020_dataMining/.ipynb_checkpoints/numpy_learning02-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/020_dataMining/numpy_learning02.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/020_dataMining/test.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/py_advance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/py_advance.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_closure_decorators/closure.py" beforeDir="false" afterPath="$PROJECT_DIR$/007_closure_decorators/closure.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_closure_decorators/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/007_closure_decorators/decorators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_crawler_basic/cookie.py" beforeDir="false" afterPath="$PROJECT_DIR$/008_crawler_basic/cookie.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_crawler_basic/get_png.py" beforeDir="false" afterPath="$PROJECT_DIR$/008_crawler_basic/get_png.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_crawler_basic/get_pornhub.py" beforeDir="false" afterPath="$PROJECT_DIR$/008_crawler_basic/get_pornhub.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_crawler_basic/guokr.py" beforeDir="false" afterPath="$PROJECT_DIR$/008_crawler_basic/guokr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_crawler_basic/guokr_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/008_crawler_basic/guokr_processing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_crawler_basic/json_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/008_crawler_basic/json_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_crawler_basic/proxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/008_crawler_basic/proxy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +34,7 @@
       </set>
     </option>
   </component>
+  <component name="JupyterTrust" id="f1cd10f3-bcaf-4c4c-9353-2980896f1c8a" />
   <component name="ProjectId" id="1TMH5bAwFUUCmQKmaTcRC3b5zl7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,41 +46,31 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/08_crawler_basic" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="py_advance" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="py_advance" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/020_dataMining" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/08_crawler_basic" />
       <recent name="$PROJECT_DIR$/004_http" />
       <recent name="$PROJECT_DIR$/002_tread_process/test" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.mongo_db">
-    <configuration name="cookie" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py_advance" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/08_crawler_basic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_crawler_basic/cookie.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test">
     <configuration name="get_pornhub" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_advance" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,6 +83,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_crawler_basic/get_pornhub.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -116,6 +105,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_crawler_basic/guokr.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -137,6 +127,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_crawler_basic/json_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -158,7 +149,30 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/010_db/mongo_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py_advance" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/020_dataMining" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/020_dataMining/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,13 +183,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.mongo_db" />
         <item itemvalue="Python.guokr" />
         <item itemvalue="Python.json_test" />
         <item itemvalue="Python.get_pornhub" />
-        <item itemvalue="Python.cookie" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -187,6 +213,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573262861923</updated>
+      <workItem from="1575542231331" duration="1337000" />
+      <workItem from="1575543597156" duration="621000" />
+      <workItem from="1575544816840" duration="198000" />
+      <workItem from="1575620122704" duration="2058000" />
+      <workItem from="1576572574675" duration="689000" />
     </task>
     <task id="LOCAL-00001" summary="threading">
       <created>1573269810213</created>
@@ -363,19 +394,76 @@
       <option name="project" value="LOCAL" />
       <updated>1574932353224</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="pymongdb">
+      <created>1575278154771</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1575278154771</updated>
+    </task>
+    <task id="LOCAL-00027" summary="jupyter init">
+      <created>1575363741777</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1575363741778</updated>
+    </task>
+    <task id="LOCAL-00028" summary="matplotlib first blood">
+      <created>1575365842361</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1575365842361</updated>
+    </task>
+    <task id="LOCAL-00029" summary="matplotlib figure">
+      <created>1575368188272</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1575368188272</updated>
+    </task>
+    <task id="LOCAL-00030" summary="matplotlib x y ticks">
+      <created>1575369600181</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1575369600181</updated>
+    </task>
+    <task id="LOCAL-00031" summary="line chart">
+      <created>1575454828154</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1575454828154</updated>
+    </task>
+    <task id="LOCAL-00032" summary="numpy &#10;pycharm run jupyter">
+      <created>1575544881426</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1575544881426</updated>
+    </task>
+    <task id="LOCAL-00033" summary="numpy">
+      <created>1575620226098</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1575620226098</updated>
+    </task>
+    <task id="LOCAL-00034" summary="numpy almost done">
+      <created>1575691038310</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1575691038310</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="threading" />
-    <MESSAGE value="multiprocess copy folder v1" />
-    <MESSAGE value="multiprocess copy folder v2" />
-    <MESSAGE value="iterator" />
-    <MESSAGE value="Fibonacci" />
-    <MESSAGE value="Coroutine downloading" />
-    <MESSAGE value="simple server v1" />
-    <MESSAGE value="simple server v2" />
-    <MESSAGE value="simple server v3 gevent" />
     <MESSAGE value="simple server v4 单进程-单线程-非阻塞" />
     <MESSAGE value="多继承 MRO， super() 处理菱形继承" />
     <MESSAGE value="*args **kwargs" />
@@ -392,17 +480,45 @@
     <MESSAGE value="goukr crawler https://www.guokr.com/ask/newest/ single thread single processing" />
     <MESSAGE value="goukr crawler https://www.guokr.com/ask/newest/ multi-thread" />
     <MESSAGE value="goukr crawler https://www.guokr.com/ask/newest/ multi-processing" />
-    <option name="LAST_COMMIT_MESSAGE" value="goukr crawler https://www.guokr.com/ask/newest/ multi-processing" />
+    <MESSAGE value="pymongdb" />
+    <MESSAGE value="jupyter init" />
+    <MESSAGE value="matplotlib first blood" />
+    <MESSAGE value="matplotlib figure" />
+    <MESSAGE value="matplotlib x y ticks" />
+    <MESSAGE value="line chart" />
+    <MESSAGE value="numpy &#10;pycharm run jupyter" />
+    <MESSAGE value="numpy" />
+    <MESSAGE value="numpy almost done" />
+    <option name="LAST_COMMIT_MESSAGE" value="numpy almost done" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2140" y="607" key="#Inspections" timestamp="1575544908604">
+      <screen x="1920" y="582" width="1440" height="878" />
+    </state>
+    <state x="2140" y="607" key="#Inspections/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575544908604" />
     <state x="2141" y="607" key="#Notifications" timestamp="1574764407910">
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
     <state x="2141" y="607" key="#Notifications/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1574764407910" />
+    <state x="2105" y="680" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575286338969">
+      <screen x="1920" y="582" width="1440" height="878" />
+    </state>
+    <state x="2105" y="680" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1575286338969" />
     <state x="1029" y="166" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1573263726486">
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="1029" y="166" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573263726486" />
+    <state x="2164" y="582" key="CommitChangelistDialog2" timestamp="1575691037691">
+      <screen x="1920" y="582" width="1440" height="878" />
+    </state>
+    <state x="2164" y="582" key="CommitChangelistDialog2/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1575691037691" />
+    <state x="2164" y="582" key="CommitChangelistDialog2/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575620225637" />
+    <state x="2411" y="712" key="FileChooserDialogImpl" timestamp="1575543421755">
+      <screen x="1920" y="582" width="1440" height="878" />
+    </state>
+    <state x="2411" y="712" key="FileChooserDialogImpl/1920.582.1440.878/47.22.1873.1058@1920.582.1440.878" timestamp="1575543258607" />
+    <state x="2411" y="712" key="FileChooserDialogImpl/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1575543421755" />
+    <state x="687" y="179" key="FileChooserDialogImpl/1920.582.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1575542539316" />
     <state x="1340" y="441" key="Github.ShareDialog" timestamp="1573266827179">
       <screen x="48" y="22" width="1872" height="1058" />
     </state>
@@ -411,95 +527,101 @@
       <screen x="48" y="22" width="1872" height="1058" />
     </state>
     <state x="1158" y="202" key="Github.UntrackedFilesDialog/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573266868762" />
-    <state width="1414" height="214" key="GridCell.Tab.0.bottom" timestamp="1575278127123">
+    <state width="1388" height="217" key="GridCell.Tab.0.bottom" timestamp="1575691561887">
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
     <state width="1414" height="214" key="GridCell.Tab.0.bottom/1920.582.1440.878/46.22.1874.1058@1920.582.1440.878" timestamp="1574675683269" />
     <state width="1414" height="214" key="GridCell.Tab.0.bottom/1920.582.1440.878/47.22.1873.1058@1920.582.1440.878" timestamp="1574676771763" />
-    <state width="1414" height="214" key="GridCell.Tab.0.bottom/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574679093049" />
+    <state width="1474" height="277" key="GridCell.Tab.0.bottom/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1575543583909" />
     <state width="820" height="277" key="GridCell.Tab.0.bottom/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573269797999" />
-    <state width="820" height="277" key="GridCell.Tab.0.bottom/1920.582.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1573265876528" />
-    <state width="1414" height="214" key="GridCell.Tab.0.bottom/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575275887541" />
+    <state width="1474" height="277" key="GridCell.Tab.0.bottom/1920.582.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1575542344564" />
+    <state width="1388" height="217" key="GridCell.Tab.0.bottom/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575691561887" />
     <state width="860" height="277" key="GridCell.Tab.0.bottom/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573632443821" />
     <state width="1414" height="214" key="GridCell.Tab.0.bottom/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1575278127123" />
     <state width="1307" height="272" key="GridCell.Tab.0.bottom/1920.582.1440.878/53.22.1867.1058@53.22.1867.1058" timestamp="1574485837281" />
-    <state width="1414" height="214" key="GridCell.Tab.0.center" timestamp="1575278127122">
+    <state width="1388" height="217" key="GridCell.Tab.0.center" timestamp="1575691561886">
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
     <state width="1414" height="214" key="GridCell.Tab.0.center/1920.582.1440.878/46.22.1874.1058@1920.582.1440.878" timestamp="1574675683268" />
     <state width="1414" height="214" key="GridCell.Tab.0.center/1920.582.1440.878/47.22.1873.1058@1920.582.1440.878" timestamp="1574676771762" />
-    <state width="1414" height="214" key="GridCell.Tab.0.center/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574679093048" />
+    <state width="1474" height="277" key="GridCell.Tab.0.center/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1575543583908" />
     <state width="820" height="277" key="GridCell.Tab.0.center/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573269797998" />
-    <state width="820" height="277" key="GridCell.Tab.0.center/1920.582.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1573265876527" />
-    <state width="1414" height="214" key="GridCell.Tab.0.center/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575275887540" />
+    <state width="1474" height="277" key="GridCell.Tab.0.center/1920.582.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1575542344563" />
+    <state width="1388" height="217" key="GridCell.Tab.0.center/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575691561886" />
     <state width="860" height="277" key="GridCell.Tab.0.center/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573632443820" />
     <state width="1414" height="214" key="GridCell.Tab.0.center/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1575278127122" />
     <state width="1307" height="272" key="GridCell.Tab.0.center/1920.582.1440.878/53.22.1867.1058@53.22.1867.1058" timestamp="1574485837280" />
-    <state width="1414" height="214" key="GridCell.Tab.0.left" timestamp="1575278127121">
+    <state width="1388" height="217" key="GridCell.Tab.0.left" timestamp="1575691561886">
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
     <state width="1414" height="214" key="GridCell.Tab.0.left/1920.582.1440.878/46.22.1874.1058@1920.582.1440.878" timestamp="1574675683267" />
     <state width="1414" height="214" key="GridCell.Tab.0.left/1920.582.1440.878/47.22.1873.1058@1920.582.1440.878" timestamp="1574676771761" />
-    <state width="1414" height="214" key="GridCell.Tab.0.left/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574679093047" />
+    <state width="1474" height="277" key="GridCell.Tab.0.left/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1575543583907" />
     <state width="820" height="277" key="GridCell.Tab.0.left/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573269797997" />
-    <state width="820" height="277" key="GridCell.Tab.0.left/1920.582.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1573265876526" />
-    <state width="1414" height="214" key="GridCell.Tab.0.left/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575275887539" />
+    <state width="1474" height="277" key="GridCell.Tab.0.left/1920.582.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1575542344562" />
+    <state width="1388" height="217" key="GridCell.Tab.0.left/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575691561886" />
     <state width="860" height="277" key="GridCell.Tab.0.left/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573632443819" />
     <state width="1414" height="214" key="GridCell.Tab.0.left/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1575278127121" />
     <state width="1307" height="272" key="GridCell.Tab.0.left/1920.582.1440.878/53.22.1867.1058@53.22.1867.1058" timestamp="1574485837280" />
-    <state width="1414" height="214" key="GridCell.Tab.0.right" timestamp="1575278127122">
+    <state width="1388" height="217" key="GridCell.Tab.0.right" timestamp="1575691561887">
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
     <state width="1414" height="214" key="GridCell.Tab.0.right/1920.582.1440.878/46.22.1874.1058@1920.582.1440.878" timestamp="1574675683268" />
     <state width="1414" height="214" key="GridCell.Tab.0.right/1920.582.1440.878/47.22.1873.1058@1920.582.1440.878" timestamp="1574676771762" />
-    <state width="1414" height="214" key="GridCell.Tab.0.right/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574679093048" />
+    <state width="1474" height="277" key="GridCell.Tab.0.right/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1575543583908" />
     <state width="820" height="277" key="GridCell.Tab.0.right/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573269797998" />
-    <state width="820" height="277" key="GridCell.Tab.0.right/1920.582.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1573265876527" />
-    <state width="1414" height="214" key="GridCell.Tab.0.right/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575275887540" />
+    <state width="1474" height="277" key="GridCell.Tab.0.right/1920.582.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1575542344563" />
+    <state width="1388" height="217" key="GridCell.Tab.0.right/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575691561887" />
     <state width="860" height="277" key="GridCell.Tab.0.right/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573632443820" />
     <state width="1414" height="214" key="GridCell.Tab.0.right/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1575278127122" />
     <state width="1307" height="272" key="GridCell.Tab.0.right/1920.582.1440.878/53.22.1867.1058@53.22.1867.1058" timestamp="1574485837280" />
-    <state width="1414" height="271" key="GridCell.Tab.1.bottom" timestamp="1575276191715">
+    <state width="1414" height="271" key="GridCell.Tab.1.bottom" timestamp="1575279727130">
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
-    <state width="1414" height="271" key="GridCell.Tab.1.bottom/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574672288292" />
+    <state width="1414" height="271" key="GridCell.Tab.1.bottom/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1575279727130" />
     <state width="1414" height="271" key="GridCell.Tab.1.bottom/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1575276191715" />
-    <state width="1414" height="271" key="GridCell.Tab.1.center" timestamp="1575276191714">
+    <state width="1414" height="271" key="GridCell.Tab.1.center" timestamp="1575279727129">
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
-    <state width="1414" height="271" key="GridCell.Tab.1.center/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574672288291" />
+    <state width="1414" height="271" key="GridCell.Tab.1.center/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1575279727129" />
     <state width="1414" height="271" key="GridCell.Tab.1.center/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1575276191714" />
-    <state width="1414" height="271" key="GridCell.Tab.1.left" timestamp="1575276191714">
+    <state width="1414" height="271" key="GridCell.Tab.1.left" timestamp="1575279727128">
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
-    <state width="1414" height="271" key="GridCell.Tab.1.left/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574672288290" />
+    <state width="1414" height="271" key="GridCell.Tab.1.left/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1575279727128" />
     <state width="1414" height="271" key="GridCell.Tab.1.left/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1575276191714" />
-    <state width="1414" height="271" key="GridCell.Tab.1.right" timestamp="1575276191715">
+    <state width="1414" height="271" key="GridCell.Tab.1.right" timestamp="1575279727129">
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
-    <state width="1414" height="271" key="GridCell.Tab.1.right/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1574672288291" />
+    <state width="1414" height="271" key="GridCell.Tab.1.right/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1575279727129" />
     <state width="1414" height="271" key="GridCell.Tab.1.right/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1575276191715" />
     <state x="896" y="245" key="IDE.errors.dialog" timestamp="1573280286053">
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="896" y="245" key="IDE.errors.dialog/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573280286053" />
-    <state x="706" y="102" key="SettingsEditor" timestamp="1573269094504">
-      <screen x="48" y="22" width="1872" height="1058" />
+    <state x="2146" y="582" width="1214" height="878" key="SettingsEditor" timestamp="1575544965878">
+      <screen x="1920" y="582" width="1440" height="878" />
     </state>
+    <state x="706" y="202" key="SettingsEditor/1920.582.1440.878/48.22.1872.1058@1920.582.1440.878" timestamp="1575543554574" />
     <state x="706" y="102" key="SettingsEditor/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573269094504" />
+    <state x="2146" y="582" width="1214" height="878" key="SettingsEditor/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1575543621067" />
+    <state x="343" y="22" key="SettingsEditor/1920.582.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1575542686841" />
+    <state x="2146" y="582" width="1214" height="878" key="SettingsEditor/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575544965878" />
     <state width="625" height="500" key="SwitcherDM" timestamp="1573293523418">
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state width="625" height="500" key="SwitcherDM/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573293523418" />
-    <state x="2360" y="755" key="Vcs.Push.Dialog.v2" timestamp="1575023610982">
-      <screen x="1920" y="582" width="1440" height="878" />
+    <state x="2360" y="438" key="Vcs.Push.Dialog.v2" timestamp="1576578682188">
+      <screen x="1920" y="202" width="1440" height="878" />
     </state>
+    <state x="2360" y="438" key="Vcs.Push.Dialog.v2/1920.202.1440.878/50.22.1870.1058@1920.202.1440.878" timestamp="1576578682188" />
     <state x="920" y="230" key="Vcs.Push.Dialog.v2/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573266894813" />
-    <state x="920" y="438" key="Vcs.Push.Dialog.v2/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1574757568700" />
-    <state x="2360" y="755" key="Vcs.Push.Dialog.v2/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575023610982" />
+    <state x="920" y="438" key="Vcs.Push.Dialog.v2/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1575691043372" />
+    <state x="2360" y="755" key="Vcs.Push.Dialog.v2/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575620232903" />
     <state x="920" y="230" key="Vcs.Push.Dialog.v2/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573500028228" />
-    <state x="2360" y="755" key="Vcs.Push.Dialog.v2/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1574933724892" />
+    <state x="2360" y="755" key="Vcs.Push.Dialog.v2/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1575278161906" />
     <state x="920" y="230" key="Vcs.Push.Dialog.v2/1920.582.1440.878/53.22.1867.1058@53.22.1867.1058" timestamp="1574153567153" />
+    <state x="590" y="225" key="Vcs.Push.Dialog.v2/53.22.1867.1058@53.22.1867.1058" timestamp="1575457492004" />
     <state width="720" height="439" key="XDebugger.FullValuePopup" timestamp="1574847540369">
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
@@ -529,5 +651,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/py_advance$test.coverage" NAME="test Coverage Results" MODIFIED="1575660910997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/020_dataMining" />
+    <SUITE FILE_PATH="coverage/py_advance$mongo_db.coverage" NAME="mongo_db Coverage Results" MODIFIED="1575542331587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/010_db" />
   </component>
 </project>
