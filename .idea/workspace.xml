@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="nu,p">
-      <change afterPath="$PROJECT_DIR$/020_dataMining/.ipynb_checkpoints/numpy_learning01-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/020_dataMining/.ipynb_checkpoints/numpy_learning02-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/020_dataMining/numpy_learning02.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/020_dataMining/test.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/py_advance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/py_advance.iml" afterDir="false" />
+    <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/020_dataMining/numpy_learning01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/020_dataMining/numpy_learning01.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/020_dataMining/numpy_learning02.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/020_dataMining/numpy_learning02.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +212,8 @@
       <workItem from="1575543597156" duration="621000" />
       <workItem from="1575544816840" duration="198000" />
       <workItem from="1575620122704" duration="2058000" />
-      <workItem from="1576572574675" duration="689000" />
+      <workItem from="1576572574675" duration="865000" />
+      <workItem from="1576958112192" duration="500000" />
     </task>
     <task id="LOCAL-00001" summary="threading">
       <created>1573269810213</created>
@@ -457,14 +453,20 @@
       <option name="project" value="LOCAL" />
       <updated>1575691038310</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="numpy 02">
+      <created>1576578697849</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1576578697849</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="simple server v4 单进程-单线程-非阻塞" />
     <MESSAGE value="多继承 MRO， super() 处理菱形继承" />
     <MESSAGE value="*args **kwargs" />
     <MESSAGE value="getter  setter" />
@@ -489,7 +491,8 @@
     <MESSAGE value="numpy &#10;pycharm run jupyter" />
     <MESSAGE value="numpy" />
     <MESSAGE value="numpy almost done" />
-    <option name="LAST_COMMIT_MESSAGE" value="numpy almost done" />
+    <MESSAGE value="numpy 02" />
+    <option name="LAST_COMMIT_MESSAGE" value="numpy 02" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2140" y="607" key="#Inspections" timestamp="1575544908604">
@@ -508,9 +511,10 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="1029" y="166" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573263726486" />
-    <state x="2164" y="582" key="CommitChangelistDialog2" timestamp="1575691037691">
-      <screen x="1920" y="582" width="1440" height="878" />
+    <state x="2164" y="202" key="CommitChangelistDialog2" timestamp="1576578697528">
+      <screen x="1920" y="202" width="1440" height="878" />
     </state>
+    <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@1920.202.1440.878" timestamp="1576578697528" />
     <state x="2164" y="582" key="CommitChangelistDialog2/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1575691037691" />
     <state x="2164" y="582" key="CommitChangelistDialog2/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575620225637" />
     <state x="2411" y="712" key="FileChooserDialogImpl" timestamp="1575543421755">
@@ -611,10 +615,10 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state width="625" height="500" key="SwitcherDM/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573293523418" />
-    <state x="2360" y="438" key="Vcs.Push.Dialog.v2" timestamp="1576578682188">
+    <state x="2360" y="438" key="Vcs.Push.Dialog.v2" timestamp="1576578704105">
       <screen x="1920" y="202" width="1440" height="878" />
     </state>
-    <state x="2360" y="438" key="Vcs.Push.Dialog.v2/1920.202.1440.878/50.22.1870.1058@1920.202.1440.878" timestamp="1576578682188" />
+    <state x="2360" y="438" key="Vcs.Push.Dialog.v2/1920.202.1440.878/50.22.1870.1058@1920.202.1440.878" timestamp="1576578704105" />
     <state x="920" y="230" key="Vcs.Push.Dialog.v2/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573266894813" />
     <state x="920" y="438" key="Vcs.Push.Dialog.v2/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1575691043372" />
     <state x="2360" y="755" key="Vcs.Push.Dialog.v2/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575620232903" />
