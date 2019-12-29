@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="numpy 02 p13 done">
+    <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/020_dataMining/pandas_learning01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/020_dataMining/pandas_learning01.ipynb" afterDir="false" />
     </list>
@@ -218,7 +218,7 @@
       <workItem from="1577187976865" duration="30000" />
       <workItem from="1577220976080" duration="227000" />
       <workItem from="1577310584003" duration="386000" />
-      <workItem from="1577484926401" duration="754000" />
+      <workItem from="1577484926401" duration="976000" />
     </task>
     <task id="LOCAL-00001" summary="threading">
       <created>1573269810213</created>
@@ -486,14 +486,20 @@
       <option name="project" value="LOCAL" />
       <updated>1577316471901</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="pandas 01 p18 done">
+      <created>1577486193577</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1577486193577</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="getter  setter" />
     <MESSAGE value="with  as" />
     <MESSAGE value="pymysql" />
     <MESSAGE value="decorator 装饰器" />
@@ -518,7 +524,8 @@
     <MESSAGE value="numpy 02" />
     <MESSAGE value="numpy 02 p13 done" />
     <MESSAGE value="numpy 02 p17 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="numpy 02 p17 done" />
+    <MESSAGE value="pandas 01 p18 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="pandas 01 p18 done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2140" y="607" key="#Inspections" timestamp="1575544908604">
@@ -537,12 +544,12 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="1029" y="166" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573263726486" />
-    <state x="365" y="22" key="CommitChangelistDialog2" timestamp="1577486150603">
+    <state x="365" y="22" key="CommitChangelistDialog2" timestamp="1577486193154">
       <screen x="48" y="22" width="1872" height="1058" />
     </state>
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/47.22.1873.1058@1920.202.1440.878" timestamp="1576980173251" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/48.22.1872.1058@1920.202.1440.878" timestamp="1577316471592" />
-    <state x="365" y="22" key="CommitChangelistDialog2/1920.202.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1577486150603" />
+    <state x="365" y="22" key="CommitChangelistDialog2/1920.202.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1577486193154" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@1920.202.1440.878" timestamp="1576980137484" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@1920.202.1440.878" timestamp="1577187969366" />
     <state x="2164" y="582" key="CommitChangelistDialog2/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1575691037691" />
