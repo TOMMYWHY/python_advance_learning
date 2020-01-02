@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/020_dataMining/.ipynb_checkpoints/2020-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/020_dataMining/.ipynb_checkpoints/UNRATE-checkpoint.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/020_dataMining/.ipynb_checkpoints/fandango_score_comparison-checkpoint.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/020_dataMining/2020.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/020_dataMining/2020.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/020_dataMining/2020.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +222,7 @@
       <workItem from="1577686915124" duration="23000" />
       <workItem from="1577692505420" duration="639000" />
       <workItem from="1577784262770" duration="690000" />
-      <workItem from="1577960241578" duration="241000" />
+      <workItem from="1577960241578" duration="858000" />
     </task>
     <task id="LOCAL-00001" summary="threading">
       <created>1573269810213</created>
@@ -542,14 +539,20 @@
       <option name="project" value="LOCAL" />
       <updated>1577874576738</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="2020">
+      <created>1577961992156</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1577961992156</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cookie split" />
     <MESSAGE value="json module" />
     <MESSAGE value="re module &amp; goukr crawler" />
     <MESSAGE value="goukr crawler https://www.guokr.com/ask/newest/" />
@@ -574,7 +577,8 @@
     <MESSAGE value="pandas 01 p25 tobe" />
     <MESSAGE value="tool pkgs  tobe" />
     <MESSAGE value="av77281149 p30  tobe" />
-    <option name="LAST_COMMIT_MESSAGE" value="av77281149 p30  tobe" />
+    <MESSAGE value="2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2140" y="607" key="#Inspections" timestamp="1575544908604">
@@ -593,8 +597,8 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="1029" y="166" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573263726486" />
-    <state x="367" y="22" key="CommitChangelistDialog2" timestamp="1577874576056">
-      <screen x="50" y="22" width="1870" height="1058" />
+    <state x="369" y="22" key="CommitChangelistDialog2" timestamp="1577961991451">
+      <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/47.22.1873.1058@1920.202.1440.878" timestamp="1576980173251" />
     <state x="365" y="22" key="CommitChangelistDialog2/1920.202.1440.878/47.22.1873.1058@47.22.1873.1058" timestamp="1577698278479" />
@@ -603,7 +607,7 @@
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@1920.202.1440.878" timestamp="1576980137484" />
     <state x="367" y="22" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1577874576056" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@1920.202.1440.878" timestamp="1577187969366" />
-    <state x="369" y="22" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1577786938993" />
+    <state x="369" y="22" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1577961991451" />
     <state x="2164" y="582" key="CommitChangelistDialog2/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1575691037691" />
     <state x="2164" y="582" key="CommitChangelistDialog2/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575620225637" />
     <state x="2411" y="712" key="FileChooserDialogImpl" timestamp="1575543421755">
@@ -704,8 +708,8 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state width="625" height="500" key="SwitcherDM/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573293523418" />
-    <state x="621" y="306" key="Vcs.Push.Dialog.v2" timestamp="1577874584965">
-      <screen x="50" y="22" width="1870" height="1058" />
+    <state x="622" y="306" key="Vcs.Push.Dialog.v2" timestamp="1577961998584">
+      <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="2360" y="438" key="Vcs.Push.Dialog.v2/1920.202.1440.878/47.22.1873.1058@1920.202.1440.878" timestamp="1576980180057" />
     <state x="619" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/47.22.1873.1058@47.22.1873.1058" timestamp="1577698289345" />
@@ -713,6 +717,7 @@
     <state x="620" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1577611680071" />
     <state x="2360" y="438" key="Vcs.Push.Dialog.v2/1920.202.1440.878/50.22.1870.1058@1920.202.1440.878" timestamp="1576578704105" />
     <state x="621" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1577874584965" />
+    <state x="622" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1577961998584" />
     <state x="920" y="230" key="Vcs.Push.Dialog.v2/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573266894813" />
     <state x="920" y="438" key="Vcs.Push.Dialog.v2/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1575691043372" />
     <state x="2360" y="755" key="Vcs.Push.Dialog.v2/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575620232903" />
