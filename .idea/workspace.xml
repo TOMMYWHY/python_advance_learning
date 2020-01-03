@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/020_dataMining/2020.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/020_dataMining/2020.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/020_dataMining/.ipynb_checkpoints/2020-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/020_dataMining/2020.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +223,7 @@
       <workItem from="1577686915124" duration="23000" />
       <workItem from="1577692505420" duration="639000" />
       <workItem from="1577784262770" duration="690000" />
-      <workItem from="1577960241578" duration="858000" />
+      <workItem from="1577960241578" duration="992000" />
     </task>
     <task id="LOCAL-00001" summary="threading">
       <created>1573269810213</created>
@@ -546,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577961992156</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="2020">
+      <created>1577963154318</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1577963154318</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,7 +605,7 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="1029" y="166" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573263726486" />
-    <state x="369" y="22" key="CommitChangelistDialog2" timestamp="1577961991451">
+    <state x="369" y="22" key="CommitChangelistDialog2" timestamp="1578043688793">
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/47.22.1873.1058@1920.202.1440.878" timestamp="1576980173251" />
@@ -607,7 +615,7 @@
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@1920.202.1440.878" timestamp="1576980137484" />
     <state x="367" y="22" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1577874576056" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@1920.202.1440.878" timestamp="1577187969366" />
-    <state x="369" y="22" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1577961991451" />
+    <state x="369" y="22" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1578043688793" />
     <state x="2164" y="582" key="CommitChangelistDialog2/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1575691037691" />
     <state x="2164" y="582" key="CommitChangelistDialog2/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575620225637" />
     <state x="2411" y="712" key="FileChooserDialogImpl" timestamp="1575543421755">
