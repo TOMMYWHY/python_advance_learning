@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/020_dataMining/algorithm/KNN/KNNClassifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/020_dataMining/.ipynb_checkpoints/2020-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/020_dataMining/2020.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/020_dataMining/algorithm/k-nearestNeighbors.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/020_dataMining/algorithm/k-nearestNeighbors.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +43,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/020_dataMining" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -223,14 +223,10 @@
       <workItem from="1577686915124" duration="23000" />
       <workItem from="1577692505420" duration="639000" />
       <workItem from="1577784262770" duration="690000" />
-      <workItem from="1577960241578" duration="992000" />
-    </task>
-    <task id="LOCAL-00001" summary="threading">
-      <created>1573269810213</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1573269810213</updated>
+      <workItem from="1577960241578" duration="5291000" />
+      <workItem from="1578094217042" duration="77000" />
+      <workItem from="1578094492711" duration="49000" />
+      <workItem from="1578206914293" duration="492000" />
     </task>
     <task id="LOCAL-00002" summary="multiprocess copy folder v1">
       <created>1573280166644</created>
@@ -554,14 +550,47 @@
       <option name="project" value="LOCAL" />
       <updated>1577963154318</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="p21 simple KNN done">
+      <created>1578043724805</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1578043724805</updated>
+    </task>
+    <task id="LOCAL-00049" summary="p21 simple KNN done">
+      <created>1578095440471</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1578095440471</updated>
+    </task>
+    <task id="LOCAL-00050" summary="p21 simple KNN done">
+      <created>1578137577866</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1578137577867</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="json module" />
     <MESSAGE value="re module &amp; goukr crawler" />
     <MESSAGE value="goukr crawler https://www.guokr.com/ask/newest/" />
     <MESSAGE value="goukr crawler https://www.guokr.com/ask/newest/ single thread single processing" />
@@ -586,7 +615,8 @@
     <MESSAGE value="tool pkgs  tobe" />
     <MESSAGE value="av77281149 p30  tobe" />
     <MESSAGE value="2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020" />
+    <MESSAGE value="p21 simple KNN done" />
+    <option name="LAST_COMMIT_MESSAGE" value="p21 simple KNN done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2140" y="607" key="#Inspections" timestamp="1575544908604">
@@ -605,7 +635,7 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="1029" y="166" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573263726486" />
-    <state x="369" y="22" key="CommitChangelistDialog2" timestamp="1578043688793">
+    <state x="369" y="22" key="CommitChangelistDialog2" timestamp="1578043724102">
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/47.22.1873.1058@1920.202.1440.878" timestamp="1576980173251" />
@@ -615,7 +645,7 @@
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@1920.202.1440.878" timestamp="1576980137484" />
     <state x="367" y="22" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1577874576056" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@1920.202.1440.878" timestamp="1577187969366" />
-    <state x="369" y="22" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1578043688793" />
+    <state x="369" y="22" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1578043724102" />
     <state x="2164" y="582" key="CommitChangelistDialog2/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1575691037691" />
     <state x="2164" y="582" key="CommitChangelistDialog2/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575620225637" />
     <state x="2411" y="712" key="FileChooserDialogImpl" timestamp="1575543421755">
