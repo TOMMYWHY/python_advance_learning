@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/020_dataMining/algorithm/KNN/model_selection.py" afterDir="false" />
+    <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="p24 KNN for digit done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/020_dataMining/algorithm/KNN/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/020_dataMining/algorithm/KNN/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/020_dataMining/algorithm/k-nearestNeighbors.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/020_dataMining/algorithm/k-nearestNeighbors.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +43,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -228,28 +231,8 @@
       <workItem from="1577960241578" duration="5291000" />
       <workItem from="1578094217042" duration="77000" />
       <workItem from="1578094492711" duration="49000" />
-      <workItem from="1578206914293" duration="2637000" />
-    </task>
-    <task id="LOCAL-00003" summary="multiprocess copy folder v2">
-      <created>1573281528515</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1573281528515</updated>
-    </task>
-    <task id="LOCAL-00004" summary="iterator">
-      <created>1573287255862</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1573287255862</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Fibonacci">
-      <created>1573288202162</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1573288202162</updated>
+      <workItem from="1578206914293" duration="3203000" />
+      <workItem from="1578298184065" duration="3024000" />
     </task>
     <task id="LOCAL-00006" summary="Coroutine downloading">
       <created>1573293771213</created>
@@ -573,7 +556,28 @@
       <option name="project" value="LOCAL" />
       <updated>1578207602593</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="p23 KNN done">
+      <created>1578213550394</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1578213550394</updated>
+    </task>
+    <task id="LOCAL-00053" summary="p25">
+      <created>1578388757901</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1578388757903</updated>
+    </task>
+    <task id="LOCAL-00054" summary="归一化 done&#10;knn 完结~！">
+      <created>1578560098347</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1578560098347</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,9 +597,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="goukr crawler https://www.guokr.com/ask/newest/" />
-    <MESSAGE value="goukr crawler https://www.guokr.com/ask/newest/ single thread single processing" />
-    <MESSAGE value="goukr crawler https://www.guokr.com/ask/newest/ multi-thread" />
     <MESSAGE value="goukr crawler https://www.guokr.com/ask/newest/ multi-processing" />
     <MESSAGE value="pymongdb" />
     <MESSAGE value="jupyter init" />
@@ -618,7 +619,10 @@
     <MESSAGE value="2020" />
     <MESSAGE value="p21 simple KNN done" />
     <MESSAGE value="p22 KNN done" />
-    <option name="LAST_COMMIT_MESSAGE" value="p22 KNN done" />
+    <MESSAGE value="p23 KNN done" />
+    <MESSAGE value="p25" />
+    <MESSAGE value="归一化 done&#10;knn 完结~！" />
+    <option name="LAST_COMMIT_MESSAGE" value="归一化 done&#10;knn 完结~！" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2140" y="607" key="#Inspections" timestamp="1575544908604">
@@ -637,17 +641,17 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="1029" y="166" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573263726486" />
-    <state x="367" y="22" key="CommitChangelistDialog2" timestamp="1578213519358">
-      <screen x="50" y="22" width="1870" height="1058" />
+    <state x="369" y="22" key="CommitChangelistDialog2" timestamp="1578560097427">
+      <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/47.22.1873.1058@1920.202.1440.878" timestamp="1576980173251" />
     <state x="365" y="22" key="CommitChangelistDialog2/1920.202.1440.878/47.22.1873.1058@47.22.1873.1058" timestamp="1577698278479" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/48.22.1872.1058@1920.202.1440.878" timestamp="1577316471592" />
     <state x="365" y="22" key="CommitChangelistDialog2/1920.202.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1578207601757" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@1920.202.1440.878" timestamp="1576980137484" />
-    <state x="367" y="22" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1578213519358" />
+    <state x="367" y="22" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1578557667361" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@1920.202.1440.878" timestamp="1577187969366" />
-    <state x="369" y="22" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1578043724102" />
+    <state x="369" y="22" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1578560097427" />
     <state x="2164" y="582" key="CommitChangelistDialog2/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1575691037691" />
     <state x="2164" y="582" key="CommitChangelistDialog2/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575620225637" />
     <state x="2411" y="712" key="FileChooserDialogImpl" timestamp="1575543421755">
@@ -748,15 +752,15 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state width="625" height="500" key="SwitcherDM/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573293523418" />
-    <state x="620" y="306" key="Vcs.Push.Dialog.v2" timestamp="1578207615038">
-      <screen x="48" y="22" width="1872" height="1058" />
+    <state x="621" y="306" key="Vcs.Push.Dialog.v2" timestamp="1578645520542">
+      <screen x="50" y="22" width="1870" height="1058" />
     </state>
     <state x="2360" y="438" key="Vcs.Push.Dialog.v2/1920.202.1440.878/47.22.1873.1058@1920.202.1440.878" timestamp="1576980180057" />
     <state x="619" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/47.22.1873.1058@47.22.1873.1058" timestamp="1577698289345" />
     <state x="2360" y="438" key="Vcs.Push.Dialog.v2/1920.202.1440.878/48.22.1872.1058@1920.202.1440.878" timestamp="1577316478212" />
     <state x="620" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1578207615038" />
     <state x="2360" y="438" key="Vcs.Push.Dialog.v2/1920.202.1440.878/50.22.1870.1058@1920.202.1440.878" timestamp="1576578704105" />
-    <state x="621" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1577874584965" />
+    <state x="621" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1578645520542" />
     <state x="622" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1577961998584" />
     <state x="920" y="230" key="Vcs.Push.Dialog.v2/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573266894813" />
     <state x="920" y="438" key="Vcs.Push.Dialog.v2/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1575691043372" />
