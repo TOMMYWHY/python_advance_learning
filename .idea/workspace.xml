@@ -1,27 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="p24 KNN for digit done">
-      <change afterPath="$PROJECT_DIR$/021_deepLearning/k-nearest-neighbors/.ipynb_checkpoints/data_preprocessing-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/021_deepLearning/k-nearest-neighbors/.ipynb_checkpoints/digits_by_knn-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/021_deepLearning/k-nearest-neighbors/.ipynb_checkpoints/hyperparameter_超参数-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/021_deepLearning/k-nearest-neighbors/.ipynb_checkpoints/k-nearestNeighbors-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/021_deepLearning/k-nearest-neighbors/KNN/KNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/021_deepLearning/k-nearest-neighbors/KNN/KNNClassifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/021_deepLearning/k-nearest-neighbors/KNN/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/021_deepLearning/k-nearest-neighbors/KNN/metrics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/021_deepLearning/k-nearest-neighbors/KNN/model_selection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/021_deepLearning/k-nearest-neighbors/data_preprocessing.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/021_deepLearning/k-nearest-neighbors/digits_by_knn.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/021_deepLearning/k-nearest-neighbors/hyperparameter_超参数.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/021_deepLearning/k-nearest-neighbors/k-nearestNeighbors.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/021_deepLearning/linear-regression-algorithm/.ipynb_checkpoints/lr01-checkpoint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/021_deepLearning/linear-regression-algorithm/.ipynb_checkpoints/simple_lr-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/021_deepLearning/linear-regression-algorithm/linear_regression/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/021_deepLearning/linear-regression-algorithm/linear_regression/simpleLinearRegression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/021_deepLearning/linear-regression-algorithm/lr01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/021_deepLearning/linear-regression-algorithm/simple_lr.ipynb" afterDir="false" />
+    <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/021_deepLearning/linear-regression-algorithm/simple_lr.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/021_deepLearning/linear-regression-algorithm/simple_lr.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,13 +238,7 @@
       <workItem from="1578298184065" duration="3024000" />
       <workItem from="1578645508895" duration="240000" />
       <workItem from="1578690279142" duration="2515000" />
-    </task>
-    <task id="LOCAL-00008" summary="simple server v2">
-      <created>1573500020967</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1573500020967</updated>
+      <workItem from="1578697546863" duration="562000" />
     </task>
     <task id="LOCAL-00009" summary="simple server v3 gevent">
       <created>1573632439782</created>
@@ -600,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578690907911</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="5-3 simple linear regression done">
+      <created>1578697788856</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1578697788856</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,7 +603,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pymongdb" />
     <MESSAGE value="jupyter init" />
     <MESSAGE value="matplotlib first blood" />
     <MESSAGE value="matplotlib figure" />
@@ -645,7 +627,8 @@
     <MESSAGE value="p25" />
     <MESSAGE value="归一化 done&#10;knn 完结~！" />
     <MESSAGE value="p24 KNN for digit done" />
-    <option name="LAST_COMMIT_MESSAGE" value="p24 KNN for digit done" />
+    <MESSAGE value="5-3 simple linear regression done" />
+    <option name="LAST_COMMIT_MESSAGE" value="5-3 simple linear regression done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2140" y="607" key="#Inspections" timestamp="1575544908604">
@@ -668,7 +651,7 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="1029" y="166" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573263726486" />
-    <state x="367" y="22" key="CommitChangelistDialog2" timestamp="1578696913108">
+    <state x="367" y="22" key="CommitChangelistDialog2" timestamp="1578697787859">
       <screen x="50" y="22" width="1870" height="1058" />
     </state>
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/47.22.1873.1058@1920.202.1440.878" timestamp="1576980173251" />
@@ -676,7 +659,7 @@
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/48.22.1872.1058@1920.202.1440.878" timestamp="1577316471592" />
     <state x="365" y="22" key="CommitChangelistDialog2/1920.202.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1578207601757" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@1920.202.1440.878" timestamp="1576980137484" />
-    <state x="367" y="22" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1578696913108" />
+    <state x="367" y="22" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1578697787859" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@1920.202.1440.878" timestamp="1577187969366" />
     <state x="369" y="22" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1578560097427" />
     <state x="2164" y="582" key="CommitChangelistDialog2/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1575691037691" />
@@ -779,7 +762,7 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state width="625" height="500" key="SwitcherDM/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573293523418" />
-    <state x="621" y="306" key="Vcs.Push.Dialog.v2" timestamp="1578690913150">
+    <state x="621" y="306" key="Vcs.Push.Dialog.v2" timestamp="1578697793160">
       <screen x="50" y="22" width="1870" height="1058" />
     </state>
     <state x="2360" y="438" key="Vcs.Push.Dialog.v2/1920.202.1440.878/47.22.1873.1058@1920.202.1440.878" timestamp="1576980180057" />
@@ -787,7 +770,7 @@
     <state x="2360" y="438" key="Vcs.Push.Dialog.v2/1920.202.1440.878/48.22.1872.1058@1920.202.1440.878" timestamp="1577316478212" />
     <state x="620" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1578207615038" />
     <state x="2360" y="438" key="Vcs.Push.Dialog.v2/1920.202.1440.878/50.22.1870.1058@1920.202.1440.878" timestamp="1576578704105" />
-    <state x="621" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1578690913150" />
+    <state x="621" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1578697793160" />
     <state x="622" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1577961998584" />
     <state x="920" y="230" key="Vcs.Push.Dialog.v2/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573266894813" />
     <state x="920" y="438" key="Vcs.Push.Dialog.v2/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1575691043372" />
