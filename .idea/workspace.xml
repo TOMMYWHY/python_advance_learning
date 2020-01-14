@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/021_deepLearning/linear-regression-algorithm/simple_lr.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/021_deepLearning/linear-regression-algorithm/simple_lr.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,14 +238,7 @@
       <workItem from="1578645508895" duration="240000" />
       <workItem from="1578690279142" duration="2515000" />
       <workItem from="1578697546863" duration="794000" />
-      <workItem from="1578900560562" duration="1047000" />
-    </task>
-    <task id="LOCAL-00011" summary="多继承 MRO， super() 处理菱形继承">
-      <created>1573851566117</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1573851566118</updated>
+      <workItem from="1578900560562" duration="1469000" />
     </task>
     <task id="LOCAL-00012" summary="*args **kwargs">
       <created>1573852486581</created>
@@ -584,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578903663278</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="5-4 simple linear regression vector done">
+      <created>1578908609475</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1578908609475</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -652,14 +651,14 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="1029" y="166" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573263726486" />
-    <state x="365" y="22" key="CommitChangelistDialog2" timestamp="1578903662152">
-      <screen x="47" y="22" width="1873" height="1058" />
+    <state x="365" y="22" key="CommitChangelistDialog2" timestamp="1578908608709">
+      <screen x="48" y="22" width="1872" height="1058" />
     </state>
     <state x="364" y="22" key="CommitChangelistDialog2/1920.202.1440.878/46.22.1874.1058@46.22.1874.1058" timestamp="1578900590176" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/47.22.1873.1058@1920.202.1440.878" timestamp="1576980173251" />
     <state x="365" y="22" key="CommitChangelistDialog2/1920.202.1440.878/47.22.1873.1058@47.22.1873.1058" timestamp="1578903662152" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/48.22.1872.1058@1920.202.1440.878" timestamp="1577316471592" />
-    <state x="365" y="22" key="CommitChangelistDialog2/1920.202.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1578207601757" />
+    <state x="365" y="22" key="CommitChangelistDialog2/1920.202.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1578908608709" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@1920.202.1440.878" timestamp="1576980137484" />
     <state x="367" y="22" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1578720318055" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@1920.202.1440.878" timestamp="1577187969366" />
