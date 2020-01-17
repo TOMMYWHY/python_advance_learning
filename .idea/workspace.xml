@@ -240,14 +240,8 @@
       <workItem from="1578697546863" duration="794000" />
       <workItem from="1578900560562" duration="5616000" />
       <workItem from="1579079273976" duration="4000" />
-      <workItem from="1579115387887" duration="285000" />
-    </task>
-    <task id="LOCAL-00015" summary="pymysql">
-      <created>1574153561666</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1574153561666</updated>
+      <workItem from="1579115387887" duration="313000" />
+      <workItem from="1579237802894" duration="582000" />
     </task>
     <task id="LOCAL-00016" summary="decorator 装饰器">
       <created>1574417989256</created>
@@ -585,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579115417771</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="5-6 R2  done">
+      <created>1579167138999</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1579167138999</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,9 +654,10 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="1029" y="166" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573263726486" />
-    <state x="369" y="22" key="CommitChangelistDialog2" timestamp="1579115416385">
-      <screen x="52" y="22" width="1868" height="1058" />
+    <state x="363" y="22" key="CommitChangelistDialog2" timestamp="1579167138158">
+      <screen x="45" y="22" width="1875" height="1058" />
     </state>
+    <state x="363" y="22" key="CommitChangelistDialog2/1920.202.1440.878/45.22.1875.1058@45.22.1875.1058" timestamp="1579167138158" />
     <state x="364" y="22" key="CommitChangelistDialog2/1920.202.1440.878/46.22.1874.1058@46.22.1874.1058" timestamp="1578900590176" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/47.22.1873.1058@1920.202.1440.878" timestamp="1576980173251" />
     <state x="365" y="22" key="CommitChangelistDialog2/1920.202.1440.878/47.22.1873.1058@47.22.1873.1058" timestamp="1578903662152" />
@@ -765,9 +767,10 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state width="625" height="500" key="SwitcherDM/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573293523418" />
-    <state x="620" y="306" key="Vcs.Push.Dialog.v2" timestamp="1579029939550">
-      <screen x="48" y="22" width="1872" height="1058" />
+    <state x="618" y="306" key="Vcs.Push.Dialog.v2" timestamp="1579167147722">
+      <screen x="45" y="22" width="1875" height="1058" />
     </state>
+    <state x="618" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/45.22.1875.1058@45.22.1875.1058" timestamp="1579167147722" />
     <state x="618" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/46.22.1874.1058@46.22.1874.1058" timestamp="1578900596956" />
     <state x="2360" y="438" key="Vcs.Push.Dialog.v2/1920.202.1440.878/47.22.1873.1058@1920.202.1440.878" timestamp="1576980180057" />
     <state x="619" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/47.22.1873.1058@47.22.1873.1058" timestamp="1578903669711" />
