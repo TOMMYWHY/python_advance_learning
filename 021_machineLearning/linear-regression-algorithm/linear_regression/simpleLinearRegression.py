@@ -49,8 +49,8 @@ class SimpleLinearRegression2:
         d = 0.0  # 分母 denominator
 
         # vector
-        num = (x_train-x_mean).dot(y_train-y_mean)
-        d = (x_train-x_mean).dot(x_train-x_mean)
+        num = (x_train - x_mean).dot(y_train - y_mean)
+        d = (x_train - x_mean).dot(x_train - x_mean)
 
         self.a_ = num / d
         self.b_ = y_mean - self.a_ * x_mean
