@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/021_machineLearning/gradient-descent/.ipynb_checkpoints/gradient_descent-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/021_machineLearning/gradient-descent/gradient_descent.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/021_machineLearning/machineLearning/.ipynb_checkpoints/LinearRegession-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/021_machineLearning/principal_components_analysis/.ipynb_checkpoints/simple_CPA-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/021_machineLearning/principal_components_analysis/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/021_machineLearning/principal_components_analysis/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/021_machineLearning/principal_components_analysis/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/021_machineLearning/principal_components_analysis/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/021_machineLearning/principal_components_analysis/simple_CPA.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,11 +67,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/021_machineLearning/principal_components_analysis" />
       <recent name="$PROJECT_DIR$/021_machineLearning/gradient-descent" />
       <recent name="$PROJECT_DIR$/021_deepLearning/linear-regression/Linear-regression" />
       <recent name="$PROJECT_DIR$/021_deepLearning/linear-regression" />
       <recent name="$PROJECT_DIR$/020_dataMining" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/021_machineLearning/machineLearning" />
@@ -248,14 +251,7 @@
       <workItem from="1579115387887" duration="313000" />
       <workItem from="1579237802894" duration="697000" />
       <workItem from="1579292244467" duration="3189000" />
-      <workItem from="1579375985525" duration="5826000" />
-    </task>
-    <task id="LOCAL-00021" summary="re module &amp; goukr crawler">
-      <created>1574762417721</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1574762417721</updated>
+      <workItem from="1579375985525" duration="8841000" />
     </task>
     <task id="LOCAL-00022" summary="goukr crawler https://www.guokr.com/ask/newest/">
       <created>1574848130117</created>
@@ -593,7 +589,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579460700431</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="6-6 gradient descent for Linear Regression done">
+      <created>1579499697764</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1579499697764</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -661,8 +664,8 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="1029" y="166" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573263726486" />
-    <state x="369" y="22" key="CommitChangelistDialog2" timestamp="1579460699456">
-      <screen x="52" y="22" width="1868" height="1058" />
+    <state x="367" y="22" key="CommitChangelistDialog2" timestamp="1579598942167">
+      <screen x="50" y="22" width="1870" height="1058" />
     </state>
     <state x="363" y="22" key="CommitChangelistDialog2/1920.202.1440.878/45.22.1875.1058@45.22.1875.1058" timestamp="1579167138158" />
     <state x="364" y="22" key="CommitChangelistDialog2/1920.202.1440.878/46.22.1874.1058@46.22.1874.1058" timestamp="1579238393674" />
@@ -671,9 +674,9 @@
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/48.22.1872.1058@1920.202.1440.878" timestamp="1577316471592" />
     <state x="365" y="22" key="CommitChangelistDialog2/1920.202.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1579380957886" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@1920.202.1440.878" timestamp="1576980137484" />
-    <state x="367" y="22" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1578720318055" />
+    <state x="367" y="22" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1579598942167" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@1920.202.1440.878" timestamp="1577187969366" />
-    <state x="369" y="22" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1579460699456" />
+    <state x="369" y="22" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1579499696800" />
     <state x="2164" y="582" key="CommitChangelistDialog2/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1575691037691" />
     <state x="2164" y="582" key="CommitChangelistDialog2/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575620225637" />
     <state x="2411" y="712" key="FileChooserDialogImpl" timestamp="1575543421755">
