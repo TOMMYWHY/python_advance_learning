@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/021_machineLearning/principal_components_analysis/simple_CPA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/021_machineLearning/principal_components_analysis/simple_CPA.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/021_machineLearning/principal_components_analysis/mult-components.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/021_machineLearning/principal_components_analysis/mult-components.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,14 +249,7 @@
       <workItem from="1579375985525" duration="9495000" />
       <workItem from="1579674725721" duration="42436000" />
       <workItem from="1579770076998" duration="1903000" />
-      <workItem from="1579911154130" duration="258000" />
-    </task>
-    <task id="LOCAL-00026" summary="pymongdb">
-      <created>1575278154771</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1575278154771</updated>
+      <workItem from="1579911154130" duration="1335000" />
     </task>
     <task id="LOCAL-00027" summary="jupyter init">
       <created>1575363741777</created>
@@ -594,7 +587,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579841841635</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="7-4  multi PCA">
+      <created>1579911684293</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1579911684294</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,7 +614,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="numpy 02" />
     <MESSAGE value="numpy 02 p13 done" />
     <MESSAGE value="numpy 02 p17 done" />
     <MESSAGE value="pandas 01 p18 done" />
@@ -639,7 +638,8 @@
     <MESSAGE value="6-6 gradient descent for Linear Regression done" />
     <MESSAGE value="7-3 gradient ascent ???" />
     <MESSAGE value="7-3 gradient ascent fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="7-3 gradient ascent fixed" />
+    <MESSAGE value="7-4  multi PCA" />
+    <option name="LAST_COMMIT_MESSAGE" value="7-4  multi PCA" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2140" y="607" key="#Inspections" timestamp="1575544908604">
@@ -662,15 +662,15 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="1029" y="166" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573263726486" />
-    <state x="367" y="22" key="CommitChangelistDialog2" timestamp="1579841840668">
-      <screen x="50" y="22" width="1870" height="1058" />
+    <state x="365" y="22" key="CommitChangelistDialog2" timestamp="1579911683284">
+      <screen x="48" y="22" width="1872" height="1058" />
     </state>
     <state x="363" y="22" key="CommitChangelistDialog2/1920.202.1440.878/45.22.1875.1058@45.22.1875.1058" timestamp="1579167138158" />
     <state x="364" y="22" key="CommitChangelistDialog2/1920.202.1440.878/46.22.1874.1058@46.22.1874.1058" timestamp="1579238393674" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/47.22.1873.1058@1920.202.1440.878" timestamp="1576980173251" />
     <state x="259" y="22" key="CommitChangelistDialog2/1920.202.1440.878/47.22.1873.1058@47.22.1873.1058" timestamp="1579293835195" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/48.22.1872.1058@1920.202.1440.878" timestamp="1577316471592" />
-    <state x="365" y="22" key="CommitChangelistDialog2/1920.202.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1579380957886" />
+    <state x="365" y="22" key="CommitChangelistDialog2/1920.202.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1579911683284" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@1920.202.1440.878" timestamp="1576980137484" />
     <state x="367" y="22" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1579841840668" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@1920.202.1440.878" timestamp="1577187969366" />
@@ -775,15 +775,15 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state width="625" height="500" key="SwitcherDM/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573293523418" />
-    <state x="621" y="306" key="Vcs.Push.Dialog.v2" timestamp="1579841846315">
-      <screen x="50" y="22" width="1870" height="1058" />
+    <state x="620" y="306" key="Vcs.Push.Dialog.v2" timestamp="1579911819430">
+      <screen x="48" y="22" width="1872" height="1058" />
     </state>
     <state x="618" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/45.22.1875.1058@45.22.1875.1058" timestamp="1579167147722" />
     <state x="618" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/46.22.1874.1058@46.22.1874.1058" timestamp="1579238399351" />
     <state x="2360" y="438" key="Vcs.Push.Dialog.v2/1920.202.1440.878/47.22.1873.1058@1920.202.1440.878" timestamp="1576980180057" />
     <state x="619" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/47.22.1873.1058@47.22.1873.1058" timestamp="1579293861403" />
     <state x="2360" y="438" key="Vcs.Push.Dialog.v2/1920.202.1440.878/48.22.1872.1058@1920.202.1440.878" timestamp="1577316478212" />
-    <state x="620" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1579380984621" />
+    <state x="620" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1579911819430" />
     <state x="2360" y="438" key="Vcs.Push.Dialog.v2/1920.202.1440.878/50.22.1870.1058@1920.202.1440.878" timestamp="1576578704105" />
     <state x="621" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1579841846315" />
     <state x="622" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1579460711243" />
