@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/021_machineLearning/machineLearning/PCA.py" afterDir="false" />
+    <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="7-5  PCA dimensionality reduction">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -250,21 +249,7 @@
       <workItem from="1579674725721" duration="42436000" />
       <workItem from="1579770076998" duration="1903000" />
       <workItem from="1579911154130" duration="1335000" />
-      <workItem from="1580004513386" duration="2266000" />
-    </task>
-    <task id="LOCAL-00027" summary="jupyter init">
-      <created>1575363741777</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1575363741778</updated>
-    </task>
-    <task id="LOCAL-00028" summary="matplotlib first blood">
-      <created>1575365842361</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1575365842361</updated>
+      <workItem from="1580004513386" duration="3704000" />
     </task>
     <task id="LOCAL-00029" summary="matplotlib figure">
       <created>1575368188272</created>
@@ -595,7 +580,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579911684294</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="7-5  PCA dimensionality reduction">
+      <created>1580008387606</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1580008387607</updated>
+    </task>
+    <task id="LOCAL-00077" summary="7-5  PCA dimensionality reduction">
+      <created>1580076618553</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1580076618554</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,7 +614,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="numpy 02 p13 done" />
     <MESSAGE value="numpy 02 p17 done" />
     <MESSAGE value="pandas 01 p18 done" />
     <MESSAGE value="pandas 01 p19 done" />
@@ -640,7 +638,8 @@
     <MESSAGE value="7-3 gradient ascent ???" />
     <MESSAGE value="7-3 gradient ascent fixed" />
     <MESSAGE value="7-4  multi PCA" />
-    <option name="LAST_COMMIT_MESSAGE" value="7-4  multi PCA" />
+    <MESSAGE value="7-5  PCA dimensionality reduction" />
+    <option name="LAST_COMMIT_MESSAGE" value="7-5  PCA dimensionality reduction" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2140" y="607" key="#Inspections" timestamp="1575544908604">
@@ -663,8 +662,8 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="1029" y="166" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573263726486" />
-    <state x="280" y="22" key="CommitChangelistDialog2" timestamp="1579997737115">
-      <screen x="43" y="22" width="1397" height="878" />
+    <state x="367" y="22" key="CommitChangelistDialog2" timestamp="1580205511218">
+      <screen x="50" y="22" width="1870" height="1058" />
     </state>
     <state x="363" y="22" key="CommitChangelistDialog2/1920.202.1440.878/45.22.1875.1058@45.22.1875.1058" timestamp="1579167138158" />
     <state x="364" y="22" key="CommitChangelistDialog2/1920.202.1440.878/46.22.1874.1058@46.22.1874.1058" timestamp="1579238393674" />
@@ -673,12 +672,12 @@
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/48.22.1872.1058@1920.202.1440.878" timestamp="1577316471592" />
     <state x="365" y="22" key="CommitChangelistDialog2/1920.202.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1579911683284" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@1920.202.1440.878" timestamp="1576980137484" />
-    <state x="367" y="22" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1579841840668" />
+    <state x="367" y="22" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1580205511218" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@1920.202.1440.878" timestamp="1577187969366" />
     <state x="369" y="22" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1579499696800" />
     <state x="2164" y="582" key="CommitChangelistDialog2/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1575691037691" />
     <state x="2164" y="582" key="CommitChangelistDialog2/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575620225637" />
-    <state x="280" y="22" key="CommitChangelistDialog2/43.22.1397.878@43.22.1397.878" timestamp="1579997737115" />
+    <state x="64" y="22" key="CommitChangelistDialog2/43.22.1397.878@43.22.1397.878" timestamp="1580008386777" />
     <state x="2411" y="712" key="FileChooserDialogImpl" timestamp="1575543421755">
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
@@ -777,8 +776,8 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state width="625" height="500" key="SwitcherDM/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573293523418" />
-    <state x="620" y="306" key="Vcs.Push.Dialog.v2" timestamp="1579911819430">
-      <screen x="48" y="22" width="1872" height="1058" />
+    <state x="621" y="306" key="Vcs.Push.Dialog.v2" timestamp="1580076625503">
+      <screen x="50" y="22" width="1870" height="1058" />
     </state>
     <state x="618" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/45.22.1875.1058@45.22.1875.1058" timestamp="1579167147722" />
     <state x="618" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/46.22.1874.1058@46.22.1874.1058" timestamp="1579238399351" />
@@ -787,7 +786,7 @@
     <state x="2360" y="438" key="Vcs.Push.Dialog.v2/1920.202.1440.878/48.22.1872.1058@1920.202.1440.878" timestamp="1577316478212" />
     <state x="620" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1579911819430" />
     <state x="2360" y="438" key="Vcs.Push.Dialog.v2/1920.202.1440.878/50.22.1870.1058@1920.202.1440.878" timestamp="1576578704105" />
-    <state x="621" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1579841846315" />
+    <state x="621" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1580076625503" />
     <state x="622" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1579460711243" />
     <state x="920" y="230" key="Vcs.Push.Dialog.v2/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573266894813" />
     <state x="920" y="438" key="Vcs.Push.Dialog.v2/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1575691043372" />
@@ -800,6 +799,10 @@
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
     <state width="720" height="439" key="XDebugger.FullValuePopup/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1574847540369" />
+    <state x="361" y="64" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580008364404">
+      <screen x="43" y="22" width="1397" height="878" />
+    </state>
+    <state x="361" y="64" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/43.22.1397.878@43.22.1397.878" timestamp="1580008364404" />
     <state x="2053" y="763" width="952" height="616" key="find.popup" timestamp="1574675217311">
       <screen x="1920" y="582" width="1440" height="878" />
     </state>
