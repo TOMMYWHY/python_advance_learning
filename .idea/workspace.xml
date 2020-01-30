@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/021_machineLearning/principal_components_analysis/skl-pca.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/021_machineLearning/principal_components_analysis/skl-pca.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,14 +249,7 @@
       <workItem from="1579674725721" duration="42436000" />
       <workItem from="1579770076998" duration="1903000" />
       <workItem from="1579911154130" duration="1335000" />
-      <workItem from="1580004513386" duration="5093000" />
-    </task>
-    <task id="LOCAL-00031" summary="line chart">
-      <created>1575454828154</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1575454828154</updated>
+      <workItem from="1580004513386" duration="5337000" />
     </task>
     <task id="LOCAL-00032" summary="numpy &#10;pycharm run jupyter">
       <created>1575544881426</created>
@@ -595,7 +587,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580285825319</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="8-1 polynomial regression">
+      <created>1580289988143</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1580289988143</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,7 +614,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pandas 01 p18 done" />
     <MESSAGE value="pandas 01 p19 done" />
     <MESSAGE value="pandas 01 p22 done" />
     <MESSAGE value="pandas 01 p25 tobe" />
@@ -640,7 +638,8 @@
     <MESSAGE value="7-4  multi PCA" />
     <MESSAGE value="7-5  PCA dimensionality reduction" />
     <MESSAGE value="7-6" />
-    <option name="LAST_COMMIT_MESSAGE" value="7-6" />
+    <MESSAGE value="8-1 polynomial regression" />
+    <option name="LAST_COMMIT_MESSAGE" value="8-1 polynomial regression" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2140" y="607" key="#Inspections" timestamp="1575544908604">
@@ -663,7 +662,7 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="1029" y="166" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573263726486" />
-    <state x="367" y="22" key="CommitChangelistDialog2" timestamp="1580285824663">
+    <state x="367" y="22" key="CommitChangelistDialog2" timestamp="1580289987423">
       <screen x="50" y="22" width="1870" height="1058" />
     </state>
     <state x="363" y="22" key="CommitChangelistDialog2/1920.202.1440.878/45.22.1875.1058@45.22.1875.1058" timestamp="1579167138158" />
@@ -673,7 +672,7 @@
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/48.22.1872.1058@1920.202.1440.878" timestamp="1577316471592" />
     <state x="365" y="22" key="CommitChangelistDialog2/1920.202.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1579911683284" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@1920.202.1440.878" timestamp="1576980137484" />
-    <state x="367" y="22" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1580285824663" />
+    <state x="367" y="22" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1580289987423" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@1920.202.1440.878" timestamp="1577187969366" />
     <state x="369" y="22" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1579499696800" />
     <state x="2164" y="582" key="CommitChangelistDialog2/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1575691037691" />
