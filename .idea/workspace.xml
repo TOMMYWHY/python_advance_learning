@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="31cdfc04-1983-44fb-b8e1-b51011b08896" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/022_deepLearning/test01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/022_deepLearning/test01.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,19 +61,19 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/021_machineLearning/principal_components_analysis" />
-      <recent name="$PROJECT_DIR$/021_machineLearning/gradient-descent" />
-      <recent name="$PROJECT_DIR$/021_deepLearning/linear-regression/Linear-regression" />
-      <recent name="$PROJECT_DIR$/021_deepLearning/linear-regression" />
-      <recent name="$PROJECT_DIR$/020_dataMining" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/021_machineLearning/machineLearning" />
       <recent name="$PROJECT_DIR$/020_dataMining" />
       <recent name="$PROJECT_DIR$/08_crawler_basic" />
       <recent name="$PROJECT_DIR$/004_http" />
       <recent name="$PROJECT_DIR$/002_tread_process/test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/022_deepLearning" />
+      <recent name="$PROJECT_DIR$/022_deepLearning/CV" />
+      <recent name="$PROJECT_DIR$/021_machineLearning/principal_components_analysis" />
+      <recent name="$PROJECT_DIR$/021_machineLearning/gradient-descent" />
+      <recent name="$PROJECT_DIR$/021_deepLearning/linear-regression/Linear-regression" />
     </key>
   </component>
   <component name="RunManager" selected="Python.test">
@@ -254,28 +255,7 @@
       <workItem from="1580595022320" duration="25000" />
       <workItem from="1581066563043" duration="506000" />
       <workItem from="1581067399785" duration="1000" />
-      <workItem from="1581068023904" duration="288000" />
-    </task>
-    <task id="LOCAL-00037" summary="numpy 02 p13 done">
-      <created>1576980173471</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1576980173471</updated>
-    </task>
-    <task id="LOCAL-00038" summary="numpy 02 p17 done">
-      <created>1577316471901</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1577316471901</updated>
-    </task>
-    <task id="LOCAL-00039" summary="pandas 01 p18 done">
-      <created>1577486193577</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1577486193577</updated>
+      <workItem from="1581068023904" duration="2709000" />
     </task>
     <task id="LOCAL-00040" summary="pandas 01 p19 done">
       <created>1577611672183</created>
@@ -599,7 +579,28 @@
       <option name="project" value="LOCAL" />
       <updated>1580595046202</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="新坑 deep learning。。。。">
+      <created>1581070484605</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1581070484606</updated>
+    </task>
+    <task id="LOCAL-00087" summary="上来就踩 V1 与 V2 的坑。。。 Session removed">
+      <created>1581073667893</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1581073667893</updated>
+    </task>
+    <task id="LOCAL-00088" summary="上来就踩 V1 与 V2 的坑。。。 Session removed">
+      <created>1581147934378</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1581147934378</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,8 +620,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pandas 01 p19 done" />
-    <MESSAGE value="pandas 01 p22 done" />
     <MESSAGE value="pandas 01 p25 tobe" />
     <MESSAGE value="tool pkgs  tobe" />
     <MESSAGE value="av77281149 p30  tobe" />
@@ -644,7 +643,9 @@
     <MESSAGE value="7-5  PCA dimensionality reduction" />
     <MESSAGE value="7-6" />
     <MESSAGE value="8-1 polynomial regression" />
-    <option name="LAST_COMMIT_MESSAGE" value="8-1 polynomial regression" />
+    <MESSAGE value="新坑 deep learning。。。。" />
+    <MESSAGE value="上来就踩 V1 与 V2 的坑。。。 Session removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="上来就踩 V1 与 V2 的坑。。。 Session removed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2140" y="607" key="#Inspections" timestamp="1575544908604">
@@ -667,8 +668,8 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state x="1029" y="166" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573263726486" />
-    <state x="201" y="23" key="CommitChangelistDialog2" timestamp="1580595044890">
-      <screen x="43" y="23" width="1397" height="877" />
+    <state x="200" y="23" key="CommitChangelistDialog2" timestamp="1581147933638">
+      <screen x="42" y="23" width="1398" height="877" />
     </state>
     <state x="363" y="22" key="CommitChangelistDialog2/1920.202.1440.878/45.22.1875.1058@45.22.1875.1058" timestamp="1579167138158" />
     <state x="364" y="22" key="CommitChangelistDialog2/1920.202.1440.878/46.22.1874.1058@46.22.1874.1058" timestamp="1579238393674" />
@@ -680,8 +681,10 @@
     <state x="367" y="22" key="CommitChangelistDialog2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1580462201298" />
     <state x="2164" y="202" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@1920.202.1440.878" timestamp="1577187969366" />
     <state x="369" y="22" key="CommitChangelistDialog2/1920.202.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1579499696800" />
+    <state x="260" y="23" key="CommitChangelistDialog2/1920.203.1440.877/48.23.1872.1057@48.23.1872.1057" timestamp="1581073667144" />
     <state x="2164" y="582" key="CommitChangelistDialog2/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1575691037691" />
     <state x="2164" y="582" key="CommitChangelistDialog2/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575620225637" />
+    <state x="200" y="23" key="CommitChangelistDialog2/42.23.1398.877@42.23.1398.877" timestamp="1581147933638" />
     <state x="64" y="22" key="CommitChangelistDialog2/43.22.1397.878@43.22.1397.878" timestamp="1580008386777" />
     <state x="201" y="23" key="CommitChangelistDialog2/43.23.1397.877@43.23.1397.877" timestamp="1580595044890" />
     <state x="2411" y="712" key="FileChooserDialogImpl" timestamp="1575543421755">
@@ -782,8 +785,8 @@
       <screen x="52" y="22" width="1868" height="1058" />
     </state>
     <state width="625" height="500" key="SwitcherDM/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573293523418" />
-    <state x="619" y="306" key="Vcs.Push.Dialog.v2" timestamp="1580523329117">
-      <screen x="47" y="22" width="1873" height="1058" />
+    <state x="440" y="258" key="Vcs.Push.Dialog.v2" timestamp="1581147942311">
+      <screen x="42" y="23" width="1398" height="877" />
     </state>
     <state x="618" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/45.22.1875.1058@45.22.1875.1058" timestamp="1579167147722" />
     <state x="618" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/46.22.1874.1058@46.22.1874.1058" timestamp="1579238399351" />
@@ -794,12 +797,14 @@
     <state x="2360" y="438" key="Vcs.Push.Dialog.v2/1920.202.1440.878/50.22.1870.1058@1920.202.1440.878" timestamp="1576578704105" />
     <state x="621" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/50.22.1870.1058@50.22.1870.1058" timestamp="1580276269848" />
     <state x="622" y="306" key="Vcs.Push.Dialog.v2/1920.202.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1579460711243" />
+    <state x="620" y="307" key="Vcs.Push.Dialog.v2/1920.203.1440.877/48.23.1872.1057@48.23.1872.1057" timestamp="1581073678577" />
     <state x="920" y="230" key="Vcs.Push.Dialog.v2/1920.582.1440.878/48.22.1872.1058@48.22.1872.1058" timestamp="1573266894813" />
     <state x="920" y="438" key="Vcs.Push.Dialog.v2/1920.582.1440.878/50.22.1870.1058@1920.582.1440.878" timestamp="1575691043372" />
     <state x="2360" y="755" key="Vcs.Push.Dialog.v2/1920.582.1440.878/52.22.1868.1058@1920.582.1440.878" timestamp="1575620232903" />
     <state x="920" y="230" key="Vcs.Push.Dialog.v2/1920.582.1440.878/52.22.1868.1058@52.22.1868.1058" timestamp="1573500028228" />
     <state x="2360" y="755" key="Vcs.Push.Dialog.v2/1920.582.1440.878/53.22.1867.1058@1920.582.1440.878" timestamp="1575278161906" />
     <state x="920" y="230" key="Vcs.Push.Dialog.v2/1920.582.1440.878/53.22.1867.1058@53.22.1867.1058" timestamp="1574153567153" />
+    <state x="440" y="258" key="Vcs.Push.Dialog.v2/42.23.1398.877@42.23.1398.877" timestamp="1581147942311" />
     <state x="590" y="225" key="Vcs.Push.Dialog.v2/53.22.1867.1058@53.22.1867.1058" timestamp="1575457492004" />
     <state width="720" height="439" key="XDebugger.FullValuePopup" timestamp="1574847540369">
       <screen x="1920" y="582" width="1440" height="878" />
