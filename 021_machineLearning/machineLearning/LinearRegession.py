@@ -44,7 +44,7 @@ class LinearRegression:
         #     return res * 2 / len(X_b)
 
         def dJ(theta,X_b,y):
-            return X_b.T.dot(X_b.dot(theta)-y)*2./len(y)
+            return X_b.T.dot(X_b.dot(theta)-y)*2./len(X_b)
 
         def gradient_descent(X_b, y, initial_theta, eta, n_iters=1e3, epsilon=1e-8):
             theta = initial_theta
